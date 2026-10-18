@@ -1,0 +1,3 @@
+[submodule "external/opowell-obscuro-chess"]
+	path = external/opowell-obscuro-chess
+	url = https://github.com/opowell/obscuro-chess.git

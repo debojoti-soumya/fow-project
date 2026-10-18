@@ -1,0 +1,268 @@
+{
+  "run_id": "submission-2026-10-18T02-47-18Z",
+  "created_at": "2026-10-18T02:47:25.801075+00:00",
+  "games_per_pair": 20,
+  "base_time": 180,
+  "increment": 2,
+  "max_plies": 1000,
+  "leaderboard": [
+    {
+      "policy_id": "local-capture-greedy",
+      "games": 20,
+      "points": 20.0,
+      "score": 1.0,
+      "ci95_low": 0.8388698745050668,
+      "ci95_high": 0.9999999999999999
+    },
+    {
+      "policy_id": "external-opowell-random-legal",
+      "games": 20,
+      "points": 0.0,
+      "score": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.1611301254949332
+    }
+  ],
+  "matches": [
+    {
+      "game": 0,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--000.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--001.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--002.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--003.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--004.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--005.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--006.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--007.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 8,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--008.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 9,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--009.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 10,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--010.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 11,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--011.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 12,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--012.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 13,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--013.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 14,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--014.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 15,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--015.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 16,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--016.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 17,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--017.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 18,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--018.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 19,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--019.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    }
+  ]
+}

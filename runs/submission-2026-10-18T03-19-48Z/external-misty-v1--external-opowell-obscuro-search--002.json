@@ -1,0 +1,231 @@
+{
+  "id": "27cc6788-0965-4392-9bf0-f732535966a9",
+  "white": "external-misty-v1",
+  "black": "external-opowell-obscuro-search",
+  "result": "1-0",
+  "reason": "King capturable",
+  "timeControl": {
+    "baseSeconds": 30.0,
+    "incrementSeconds": 1.0
+  },
+  "frames": [
+    {
+      "ply": 0,
+      "board": "RNBQKBNRPPPPPPPP--------------------------------pppppppprnbqkbnr",
+      "white": "RNBQKBNRPPPPPPPP----------------????????????????????????????????",
+      "black": "????????????????????????????????----------------pppppppprnbqkbnr",
+      "move": null,
+      "clocks": [
+        30.0,
+        30.0
+      ]
+    },
+    {
+      "ply": 1,
+      "board": "RNBQKBNRPP-PPPPP----------P---------------------pppppppprnbqkbnr",
+      "white": "RNBQKBNRPP-PPPPP----------P-----??-?????????????????????????????",
+      "black": "????????????????????????????????----------------pppppppprnbqkbnr",
+      "move": "c2c4",
+      "clocks": [
+        30.96175,
+        30.0
+      ]
+    },
+    {
+      "ply": 2,
+      "board": "RNBQKBNRPP-PPPPP----------P--------p------------ppp-pppprnbqkbnr",
+      "white": "RNBQKBNRPP-PPPPP----------P-----??-p????????????????????????????",
+      "black": "???????????????????????-??P-??-?---p------------ppp-pppprnbqkbnr",
+      "move": "d7d5",
+      "clocks": [
+        30.96175,
+        30.591027
+      ]
+    },
+    {
+      "ply": 3,
+      "board": "RNB-KBNRPP-PPPPP--------Q-P--------p------------ppp-pppprnbqkbnr",
+      "white": "RNB-KBNRPP-PPPPP--------Q-P--------p????-?-?????p??-????????k???",
+      "black": "???????????????????????-??P-??-?---p------------ppp-pppprnbqkbnr",
+      "move": "d1a4",
+      "clocks": [
+        31.915567,
+        30.591027
+      ]
+    },
+    {
+      "ply": 4,
+      "board": "RNB-KBNRPP-PPPPP--------Q-P--------p---------n--ppp-pppprnbqkb-r",
+      "white": "RNB-KBNRPP-PPPPP--------Q-P--------p????-?-?????p??-????????k???",
+      "black": "???????????????????????-??P--?-?---p---------n--ppp-pppprnbqkb-r",
+      "move": "g8f6",
+      "clocks": [
+        31.915567,
+        31.318915
+      ]
+    }
+  ],
+  "protocol": {
+    "events": [
+      {
+        "atMs": 1,
+        "ply": 0,
+        "side": "white",
+        "direction": "input",
+        "text": "fow"
+      },
+      {
+        "atMs": 1,
+        "ply": 0,
+        "side": "white",
+        "direction": "input",
+        "text": "w 30 1"
+      },
+      {
+        "atMs": 230,
+        "ply": 0,
+        "side": "white",
+        "direction": "output",
+        "text": "ready"
+      },
+      {
+        "atMs": 232,
+        "ply": 0,
+        "side": "black",
+        "direction": "input",
+        "text": "fow"
+      },
+      {
+        "atMs": 232,
+        "ply": 0,
+        "side": "black",
+        "direction": "input",
+        "text": "b 30 1"
+      },
+      {
+        "atMs": 260,
+        "ply": 0,
+        "side": "black",
+        "direction": "output",
+        "text": "ready"
+      },
+      {
+        "atMs": 260,
+        "ply": 0,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQKBNRPPPPPPPP----------------????????????????????????????????"
+      },
+      {
+        "atMs": 260,
+        "ply": 0,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????????????????????----------------pppppppprnbqkbnr"
+      },
+      {
+        "atMs": 260,
+        "ply": 0,
+        "side": "white",
+        "direction": "input",
+        "text": "30.000000000"
+      },
+      {
+        "atMs": 299,
+        "ply": 0,
+        "side": "white",
+        "direction": "output",
+        "text": "move c2c4"
+      },
+      {
+        "atMs": 299,
+        "ply": 1,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQKBNRPP-PPPPP----------P-----??-?????????????????????????????"
+      },
+      {
+        "atMs": 299,
+        "ply": 1,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????????????????????----------------pppppppprnbqkbnr"
+      },
+      {
+        "atMs": 299,
+        "ply": 1,
+        "side": "black",
+        "direction": "input",
+        "text": "30.000000000"
+      },
+      {
+        "atMs": 708,
+        "ply": 1,
+        "side": "black",
+        "direction": "output",
+        "text": "move d7d5"
+      },
+      {
+        "atMs": 708,
+        "ply": 2,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQKBNRPP-PPPPP----------P-----??-p????????????????????????????"
+      },
+      {
+        "atMs": 708,
+        "ply": 2,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????-??P-??-?---p------------ppp-pppprnbqkbnr"
+      },
+      {
+        "atMs": 708,
+        "ply": 2,
+        "side": "white",
+        "direction": "input",
+        "text": "30.961749625"
+      },
+      {
+        "atMs": 755,
+        "ply": 2,
+        "side": "white",
+        "direction": "output",
+        "text": "move d1a4"
+      },
+      {
+        "atMs": 755,
+        "ply": 3,
+        "side": "white",
+        "direction": "input",
+        "text": "RNB-KBNRPP-PPPPP--------Q-P--------p????-?-?????p??-????????k???"
+      },
+      {
+        "atMs": 755,
+        "ply": 3,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????-??P-??-?---p------------ppp-pppprnbqkbnr"
+      },
+      {
+        "atMs": 755,
+        "ply": 3,
+        "side": "black",
+        "direction": "input",
+        "text": "30.591027208"
+      },
+      {
+        "atMs": 1027,
+        "ply": 3,
+        "side": "black",
+        "direction": "output",
+        "text": "move g8f6"
+      }
+    ],
+    "truncated": false
+  },
+  "warnings": [],
+  "privateDiagnostics": {
+    "black": "(node:92672) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+  }
+}

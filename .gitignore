@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+results/games.ndjson
+outputs/*.tar.gz
+dist/
+.wrangler/
+submission/*.zip

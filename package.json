@@ -1,0 +1,18 @@
+{
+  "name": "fow-lab-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bash site/scripts/build.sh",
+    "validate": "node site/scripts/validate-artifact.mjs",
+    "bot:add": "python3 evals/add_bot.py --sync",
+    "arena:refresh": "python3 evals/refresh_arena.py --games 8",
+    "eval:submission": "python3 evals/run_submission_round_robin.py --games 8",
+    "eval:pair": "python3 evals/run_pair.py",
+    "eval:import": "python3 evals/import_runs.py",
+    "eval:times": "python3 evals/summarize_times.py",
+    "eval:probe": "python3 evals/probe_positions.py",
+    "submission:build": "python3 submission/build_archives.py",
+    "submission:package": "python3 evals/package_policy.py"
+  }
+}

@@ -1,0 +1,1243 @@
+{
+  "id": "a062aadc-126e-41cb-b77f-f5bbe0beaa12",
+  "white": "external-misty-tier1",
+  "black": "local-check-seek",
+  "result": "1/2-1/2",
+  "reason": "Move limit reached",
+  "timeControl": {
+    "baseSeconds": 30.0,
+    "incrementSeconds": 1.0
+  },
+  "frames": [
+    {
+      "ply": 0,
+      "board": "RNBQKBNRPPPPPPPP--------------------------------pppppppprnbqkbnr",
+      "white": "RNBQKBNRPPPPPPPP----------------????????????????????????????????",
+      "black": "????????????????????????????????----------------pppppppprnbqkbnr",
+      "move": null,
+      "clocks": [
+        30.0,
+        30.0
+      ]
+    },
+    {
+      "ply": 1,
+      "board": "RNBQKBNRPPPP-PPP----P---------------------------pppppppprnbqkbnr",
+      "white": "RNBQKBNRPPPP-PPP----P-----------?-?????--???????????????????????",
+      "black": "????????????????????????????????----------------pppppppprnbqkbnr",
+      "move": "e2e3",
+      "clocks": [
+        30.999275,
+        30.0
+      ]
+    },
+    {
+      "ply": 2,
+      "board": "RNBQKBNRPPPP-PPP----P--------------p------------ppp-pppprnbqkbnr",
+      "white": "RNBQKBNRPPPP-PPP----P-----------?-?????--???????????????????????",
+      "black": "???????????????????????-???-??-?---p------------ppp-pppprnbqkbnr",
+      "move": "d7d5",
+      "clocks": [
+        30.999275,
+        30.999768
+      ]
+    },
+    {
+      "ply": 3,
+      "board": "RNBQK-NRPPPPBPPP----P--------------p------------ppp-pppprnbqkbnr",
+      "white": "RNBQK-NRPPPPBPPP----P-----------?-?????--???????????????????????",
+      "black": "???????????????????????-???-??-?---p------------ppp-pppprnbqkbnr",
+      "move": "f1e2",
+      "clocks": [
+        31.993458,
+        30.999768
+      ]
+    },
+    {
+      "ply": 4,
+      "board": "RNBQK-NRPPPPBPPP----P--------------pp-----------ppp--ppprnbqkbnr",
+      "white": "RNBQK-NRPPPPBPPP----P-----------?-?????--???????????????????????",
+      "black": "????????????????-??????-?-?--?-----pp-----------ppp--ppprnbqkbnr",
+      "move": "e7e5",
+      "clocks": [
+        31.993458,
+        31.999572
+      ]
+    },
+    {
+      "ply": 5,
+      "board": "RNBQK-NRPPP-BPPP---PP--------------pp-----------ppp--ppprnbqkbnr",
+      "white": "RNBQK-NRPPP-BPPP---PP-----------???????-????????????????????????",
+      "black": "????????????????-??????-?-?--?-----pp-----------ppp--ppprnbqkbnr",
+      "move": "d2d3",
+      "clocks": [
+        32.938493,
+        31.999572
+      ]
+    },
+    {
+      "ply": 6,
+      "board": "RNBQK-NRPPP-BPPP---PP------p--------p-----------ppp--ppprnbqkbnr",
+      "white": "RNBQK-NRPPP-BPPP---PP------p----???????-????????????????????????",
+      "black": "????????????????-???P??-?-?p-?------p-----------ppp--ppprnbqkbnr",
+      "move": "d5d4",
+      "clocks": [
+        32.938493,
+        32.99933
+      ]
+    },
+    {
+      "ply": 7,
+      "board": "RNBQK-NRPPP--PPP---PPB-----p--------p-----------ppp--ppprnbqkbnr",
+      "white": "RNBQK-NRPPP--PPP---PPB-----p-?--???-???-??-??????p??????????????",
+      "black": "????????????????-???P??-?-?p-?------p-----------ppp--ppprnbqkbnr",
+      "move": "e2f3",
+      "clocks": [
+        33.828321,
+        32.99933
+      ]
+    },
+    {
+      "ply": 8,
+      "board": "RNBQK-NRPPP--PPP---PpB--------------p-----------ppp--ppprnbqkbnr",
+      "white": "RNBQK-NRPPP--PPP---PpB-------?--???-???-??-??????p??????????????",
+      "black": "????????????-P??-??Pp??-?-?--?------p-----------ppp--ppprnbqkbnr",
+      "move": "d4e3",
+      "clocks": [
+        33.828321,
+        33.99894
+      ]
+    },
+    {
+      "ply": 9,
+      "board": "RNBQK--RPPP-NPPP---PpB--------------p-----------ppp--ppprnbqkbnr",
+      "white": "RNBQK--RPPP-NPPP---PpB----------???-???-??-??????p??????????????",
+      "black": "?????????????P??-??Pp??-?-?--?------p-----------ppp--ppprnbqkbnr",
+      "move": "g1e2",
+      "clocks": [
+        34.814193,
+        33.99894
+      ]
+    },
+    {
+      "ply": 10,
+      "board": "RNBQK--RPPP-NPPP---qpB--------------p-----------ppp--ppprnb-kbnr",
+      "white": "RNBQK--RPPP-NPPP---qpB----------???-???-??-??????p??????????????",
+      "black": "???Q??????P-NP??---qp??-?----?-?----p-----------ppp--ppprnb-kbnr",
+      "move": "d8d3",
+      "clocks": [
+        34.814193,
+        34.998688
+      ]
+    },
+    {
+      "ply": 11,
+      "board": "RNBQK--RPP--NPPP---PpB--------------p-----------ppp--ppprnb-kbnr",
+      "white": "RNBQK--RPP--NPPP---PpB----?-----???-???-??-??????p??????????????",
+      "black": "?????????????P??-???p??-?-??-?-?---?p-----------ppp--ppprnb-kbnr",
+      "move": "c2d3",
+      "clocks": [
+        35.782711,
+        34.998688
+      ]
+    },
+    {
+      "ply": 12,
+      "board": "RNBQK--RPP--NpPP---P-B--------------p-----------ppp--ppprnb-kbnr",
+      "white": "RNBQK--RPP--NpPP---P-B----?-----???-??--??-????-?p??????????????",
+      "black": "????K-???????p??-??????-?-??-?-?---?p-----------ppp--ppprnb-kbnr",
+      "move": "e3f2",
+      "clocks": [
+        35.782711,
+        35.998474
+      ]
+    },
+    {
+      "ply": 13,
+      "board": "RNBQ-K-RPP--NpPP---P-B--------------p-----------ppp--ppprnb-kbnr",
+      "white": "RNBQ-K-RPP--NpPP---P-B----?-----???-??--??-????-?p??????????????",
+      "black": "?????????????p??-??????-?-??-?-?---?p-----------ppp--ppprnb-kbnr",
+      "move": "e1f1",
+      "clocks": [
+        36.753453,
+        35.998474
+      ]
+    },
+    {
+      "ply": 14,
+      "board": "RNBQ-K-RPP--NpPP---P-B------p-------------------ppp--ppprnb-kbnr",
+      "white": "RNBQ-K-RPP--NpPP---P-B----?-p---??????--???????-????????????????",
+      "black": "?????????????p??-??P-B?-?-??p?-?---??-----------ppp--ppprnb-kbnr",
+      "move": "e5e4",
+      "clocks": [
+        36.753453,
+        36.998232
+      ]
+    },
+    {
+      "ply": 15,
+      "board": "RNBQ-K-RPP--NpPP-----B------P-------------------ppp--ppprnb-kbnr",
+      "white": "RNBQ-K-RPP--NpPP-----B----?-P---???--?--???-???-???-???????-????",
+      "black": "?????????????p??-??????-?-????-?---??-----------ppp--ppprnb-kbnr",
+      "move": "d3e4",
+      "clocks": [
+        37.682387,
+        36.998232
+      ]
+    },
+    {
+      "ply": 16,
+      "board": "RNBQ-K-RPP--NpPP-----B------P--------p----------ppp---pprnb-kbnr",
+      "white": "RNBQ-K-RPP--NpPP-----B----?-P---???--p--???-???-???-???????-????",
+      "black": "?????????????p??-????????-??P-??---??p----------ppp---pprnb-kbnr",
+      "move": "f7f5",
+      "clocks": [
+        37.682387,
+        37.998028
+      ]
+    },
+    {
+      "ply": 17,
+      "board": "RNB--K-RPP--NpPP-Q---B------P--------p----------ppp---pprnb-kbnr",
+      "white": "RNB--K-RPP--NpPP-Q---B------P---?-?--p--?-??-??-?p???-????????n?",
+      "black": "?????????????p??-????????-??P-??---??p----------ppp---pprnb-kbnr",
+      "move": "d1b3",
+      "clocks": [
+        38.563615,
+        37.998028
+      ]
+    },
+    {
+      "ply": 18,
+      "board": "RNB--K-RPP--NpPP-Q---B------p-------------------ppp---pprnb-kbnr",
+      "white": "RNB--K-RPP--NpPP-Q---B------p---?-?-??--?-??-??-?p???-????????n?",
+      "black": "?????????????p??-???-B?-?-??p?-?---??-----------ppp---pprnb-kbnr",
+      "move": "f5e4",
+      "clocks": [
+        38.563615,
+        38.997806
+      ]
+    },
+    {
+      "ply": 19,
+      "board": "RNB--K-RPP--NpPP-Q----------B-------------------ppp---pprnb-kbnr",
+      "white": "RNB--K-RPP--NpPP-Q----------B---?-?-?--??--?-?--?p???-?p??????n?",
+      "black": "?????????????p??-??????-?-????-?---??-----------ppp---pprnb-kbnr",
+      "move": "f3e4",
+      "clocks": [
+        39.548521,
+        38.997806
+      ]
+    },
+    {
+      "ply": 20,
+      "board": "RNB--K-RPP--NpPP-Q----------B---------------b---ppp---pprn--kbnr",
+      "white": "RNB--K-RPP--NpPP-Q----------B---?-?-?--??--?b?--?p?????p????????",
+      "black": "?????????????p??-Q?????-?--???-?----?-------b---ppp---pprn--kbnr",
+      "move": "c8e6",
+      "clocks": [
+        39.548521,
+        39.997616
+      ]
+    },
+    {
+      "ply": 21,
+      "board": "RNB--K-RPP--NpPP---Q--------B---------------b---ppp---pprn--kbnr",
+      "white": "RNB--K-RPP--NpPP---Q--------B---?-?-?--?-?--??--?p?-???p???-????",
+      "black": "????????P????p??--?????-?--???-?----?-------b---ppp---pprn--kbnr",
+      "move": "b3d3",
+      "clocks": [
+        40.530344,
+        39.997616
+      ]
+    },
+    {
+      "ply": 22,
+      "board": "RNB--K-RbP--NpPP---Q--------B-------------------ppp---pprn--kbnr",
+      "white": "RNB--K-RbP--NpPP---Q----?---B---?-?-?--?-?--??--?p?-???p???-????",
+      "black": "?N??????b????p??--???????--?????----??----------ppp---pprn?-kbnr",
+      "move": "e6a2",
+      "clocks": [
+        40.530344,
+        40.997335
+      ]
+    },
+    {
+      "ply": 23,
+      "board": "R-B--K-RbP-NNpPP---Q--------B-------------------ppp---pprn--kbnr",
+      "white": "R-B?-K-RbP-NNpPP---Q----?---B---?-?-?-??-?--??-??p?-???p???-????",
+      "black": "?-??????b????p??--???????--?????----??----------ppp---pprn?-kbnr",
+      "move": "b1d2",
+      "clocks": [
+        41.508943,
+        40.997335
+      ]
+    },
+    {
+      "ply": 24,
+      "board": "R-B--K-R-P-NNpPP---Q--------B------b------------ppp---pprn--kbnr",
+      "white": "R-B?-K-R-P-NNpPP---Q--------B-----?b?-??-?????-?p??????p????????",
+      "black": "????????-????p??--???????--?B???---b??----------ppp---pprn?-kbnr",
+      "move": "a2d5",
+      "clocks": [
+        41.508943,
+        41.99711
+      ]
+    },
+    {
+      "ply": 25,
+      "board": "R-B--K-R-P-NNpPP---Q---------------B------------ppp---pprn--kbnr",
+      "white": "R-B?-K-R-P-NNpPP---Q--------------?B?-??-?-?-?-?pp???-?p??????n?",
+      "black": "?????????????p??-????????-??????---???------?---ppp---pprn?-kbnr",
+      "move": "e4d5",
+      "clocks": [
+        42.486891,
+        41.99711
+      ]
+    },
+    {
+      "ply": 26,
+      "board": "R-B--K-R-P-NNpPP---Q--------------pB------------pp----pprn--kbnr",
+      "white": "R-B?-K-R-P-NNpPP---Q--------------?B?-??-?-?-?-?pp???-?p??????n?",
+      "black": "?????????????p????????????-?????--p???------?---pp?---pprn?-kbnr",
+      "move": "c7c5",
+      "clocks": [
+        42.486891,
+        42.996929
+      ]
+    },
+    {
+      "ply": 27,
+      "board": "R-B--K-R-P--NpPP---Q------N-------pB------------pp----pprn--kbnr",
+      "white": "R-B--K-R-P--NpPP---Q------N------??B---?-----?--pp???-?p??????n?",
+      "black": "?????????????p??????????????????--p???------?---pp?---pprn?-kbnr",
+      "move": "d2c4",
+      "clocks": [
+        43.318361,
+        42.996929
+      ]
+    },
+    {
+      "ply": 28,
+      "board": "R-B--K-R-P--NpPP---Q------N-------pB-------b----pp----pprn--k-nr",
+      "white": "R-B--K-R-P--NpPP---Q------N------??B---?---b-?--pp???-?p??????n?",
+      "black": "?????????????p?P??????-??????-??--p?-?-----b?---pp----pprn?-k-nr",
+      "move": "f8d6",
+      "clocks": [
+        43.318361,
+        43.996727
+      ]
+    },
+    {
+      "ply": 29,
+      "board": "R-B--K-R-P--NpPP----------N-------pB-Q-----b----pp----pprn--k-nr",
+      "white": "R-B?-K-R-P--NpPP----------N------??B-Q-----b----pp?-?-?p??-??-n?",
+      "black": "?????????????p?P??????-??????-??--p?-?-----b?---pp----pprn?-k-nr",
+      "move": "d3f5",
+      "clocks": [
+        44.221672,
+        43.996727
+      ]
+    },
+    {
+      "ply": 30,
+      "board": "R-B--K-R-P--NpPb----------N-------pB-Q----------pp----pprn--k-nr",
+      "white": "R-B?-K-R-P--NpPb----------N----?-??B-Q----------pp?-?-?p??-??-n?",
+      "black": "??????-??????p?b??????-??????-??--p?-?------?---pp----pprn?-k-nr",
+      "move": "d6h2",
+      "clocks": [
+        44.221672,
+        44.996493
+      ]
+    }
+  ],
+  "protocol": {
+    "events": [
+      {
+        "atMs": 1,
+        "ply": 0,
+        "side": "white",
+        "direction": "input",
+        "text": "fow"
+      },
+      {
+        "atMs": 1,
+        "ply": 0,
+        "side": "white",
+        "direction": "input",
+        "text": "w 30 1"
+      },
+      {
+        "atMs": 100,
+        "ply": 0,
+        "side": "white",
+        "direction": "output",
+        "text": "ready"
+      },
+      {
+        "atMs": 101,
+        "ply": 0,
+        "side": "black",
+        "direction": "input",
+        "text": "fow"
+      },
+      {
+        "atMs": 101,
+        "ply": 0,
+        "side": "black",
+        "direction": "input",
+        "text": "b 30 1"
+      },
+      {
+        "atMs": 146,
+        "ply": 0,
+        "side": "black",
+        "direction": "output",
+        "text": "ready"
+      },
+      {
+        "atMs": 147,
+        "ply": 0,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQKBNRPPPPPPPP----------------????????????????????????????????"
+      },
+      {
+        "atMs": 147,
+        "ply": 0,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????????????????????----------------pppppppprnbqkbnr"
+      },
+      {
+        "atMs": 147,
+        "ply": 0,
+        "side": "white",
+        "direction": "input",
+        "text": "30.000000000"
+      },
+      {
+        "atMs": 148,
+        "ply": 0,
+        "side": "white",
+        "direction": "output",
+        "text": "move e2e3"
+      },
+      {
+        "atMs": 148,
+        "ply": 1,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQKBNRPPPP-PPP----P-----------?-?????--???????????????????????"
+      },
+      {
+        "atMs": 148,
+        "ply": 1,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????????????????????----------------pppppppprnbqkbnr"
+      },
+      {
+        "atMs": 148,
+        "ply": 1,
+        "side": "black",
+        "direction": "input",
+        "text": "30.000000000"
+      },
+      {
+        "atMs": 148,
+        "ply": 1,
+        "side": "black",
+        "direction": "output",
+        "text": "move d7d5"
+      },
+      {
+        "atMs": 148,
+        "ply": 2,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQKBNRPPPP-PPP----P-----------?-?????--???????????????????????"
+      },
+      {
+        "atMs": 148,
+        "ply": 2,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????-???-??-?---p------------ppp-pppprnbqkbnr"
+      },
+      {
+        "atMs": 148,
+        "ply": 2,
+        "side": "white",
+        "direction": "input",
+        "text": "30.999274958"
+      },
+      {
+        "atMs": 154,
+        "ply": 2,
+        "side": "white",
+        "direction": "output",
+        "text": "move f1e2"
+      },
+      {
+        "atMs": 155,
+        "ply": 3,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK-NRPPPPBPPP----P-----------?-?????--???????????????????????"
+      },
+      {
+        "atMs": 155,
+        "ply": 3,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????-???-??-?---p------------ppp-pppprnbqkbnr"
+      },
+      {
+        "atMs": 155,
+        "ply": 3,
+        "side": "black",
+        "direction": "input",
+        "text": "30.999768250"
+      },
+      {
+        "atMs": 155,
+        "ply": 3,
+        "side": "black",
+        "direction": "output",
+        "text": "move e7e5"
+      },
+      {
+        "atMs": 155,
+        "ply": 4,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK-NRPPPPBPPP----P-----------?-?????--???????????????????????"
+      },
+      {
+        "atMs": 155,
+        "ply": 4,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????-??????-?-?--?-----pp-----------ppp--ppprnbqkbnr"
+      },
+      {
+        "atMs": 155,
+        "ply": 4,
+        "side": "white",
+        "direction": "input",
+        "text": "31.993457541"
+      },
+      {
+        "atMs": 210,
+        "ply": 4,
+        "side": "white",
+        "direction": "output",
+        "text": "move d2d3"
+      },
+      {
+        "atMs": 210,
+        "ply": 5,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK-NRPPP-BPPP---PP-----------???????-????????????????????????"
+      },
+      {
+        "atMs": 210,
+        "ply": 5,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????-??????-?-?--?-----pp-----------ppp--ppprnbqkbnr"
+      },
+      {
+        "atMs": 211,
+        "ply": 5,
+        "side": "black",
+        "direction": "input",
+        "text": "31.999572250"
+      },
+      {
+        "atMs": 211,
+        "ply": 5,
+        "side": "black",
+        "direction": "output",
+        "text": "move d5d4"
+      },
+      {
+        "atMs": 211,
+        "ply": 6,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK-NRPPP-BPPP---PP------p----???????-????????????????????????"
+      },
+      {
+        "atMs": 211,
+        "ply": 6,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????-???P??-?-?p-?------p-----------ppp--ppprnbqkbnr"
+      },
+      {
+        "atMs": 211,
+        "ply": 6,
+        "side": "white",
+        "direction": "input",
+        "text": "32.938493458"
+      },
+      {
+        "atMs": 321,
+        "ply": 6,
+        "side": "white",
+        "direction": "output",
+        "text": "move e2f3"
+      },
+      {
+        "atMs": 322,
+        "ply": 7,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK-NRPPP--PPP---PPB-----p-?--???-???-??-??????p??????????????"
+      },
+      {
+        "atMs": 322,
+        "ply": 7,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????-???P??-?-?p-?------p-----------ppp--ppprnbqkbnr"
+      },
+      {
+        "atMs": 322,
+        "ply": 7,
+        "side": "black",
+        "direction": "input",
+        "text": "32.999330250"
+      },
+      {
+        "atMs": 322,
+        "ply": 7,
+        "side": "black",
+        "direction": "output",
+        "text": "move d4e3"
+      },
+      {
+        "atMs": 322,
+        "ply": 8,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK-NRPPP--PPP---PpB-------?--???-???-??-??????p??????????????"
+      },
+      {
+        "atMs": 322,
+        "ply": 8,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????-P??-??Pp??-?-?--?------p-----------ppp--ppprnbqkbnr"
+      },
+      {
+        "atMs": 322,
+        "ply": 8,
+        "side": "white",
+        "direction": "input",
+        "text": "33.828321375"
+      },
+      {
+        "atMs": 336,
+        "ply": 8,
+        "side": "white",
+        "direction": "output",
+        "text": "move g1e2"
+      },
+      {
+        "atMs": 337,
+        "ply": 9,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK--RPPP-NPPP---PpB----------???-???-??-??????p??????????????"
+      },
+      {
+        "atMs": 337,
+        "ply": 9,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????P??-??Pp??-?-?--?------p-----------ppp--ppprnbqkbnr"
+      },
+      {
+        "atMs": 337,
+        "ply": 9,
+        "side": "black",
+        "direction": "input",
+        "text": "33.998939750"
+      },
+      {
+        "atMs": 337,
+        "ply": 9,
+        "side": "black",
+        "direction": "output",
+        "text": "move d8d3"
+      },
+      {
+        "atMs": 337,
+        "ply": 10,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK--RPPP-NPPP---qpB----------???-???-??-??????p??????????????"
+      },
+      {
+        "atMs": 337,
+        "ply": 10,
+        "side": "black",
+        "direction": "input",
+        "text": "???Q??????P-NP??---qp??-?----?-?----p-----------ppp--ppprnb-kbnr"
+      },
+      {
+        "atMs": 337,
+        "ply": 10,
+        "side": "white",
+        "direction": "input",
+        "text": "34.814192917"
+      },
+      {
+        "atMs": 369,
+        "ply": 10,
+        "side": "white",
+        "direction": "output",
+        "text": "move c2d3"
+      },
+      {
+        "atMs": 369,
+        "ply": 11,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK--RPP--NPPP---PpB----?-----???-???-??-??????p??????????????"
+      },
+      {
+        "atMs": 369,
+        "ply": 11,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????P??-???p??-?-??-?-?---?p-----------ppp--ppprnb-kbnr"
+      },
+      {
+        "atMs": 369,
+        "ply": 11,
+        "side": "black",
+        "direction": "input",
+        "text": "34.998687792"
+      },
+      {
+        "atMs": 369,
+        "ply": 11,
+        "side": "black",
+        "direction": "output",
+        "text": "move e3f2"
+      },
+      {
+        "atMs": 370,
+        "ply": 12,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK--RPP--NpPP---P-B----?-----???-??--??-????-?p??????????????"
+      },
+      {
+        "atMs": 370,
+        "ply": 12,
+        "side": "black",
+        "direction": "input",
+        "text": "????K-???????p??-??????-?-??-?-?---?p-----------ppp--ppprnb-kbnr"
+      },
+      {
+        "atMs": 370,
+        "ply": 12,
+        "side": "white",
+        "direction": "input",
+        "text": "35.782711209"
+      },
+      {
+        "atMs": 399,
+        "ply": 12,
+        "side": "white",
+        "direction": "output",
+        "text": "move e1f1"
+      },
+      {
+        "atMs": 399,
+        "ply": 13,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQ-K-RPP--NpPP---P-B----?-----???-??--??-????-?p??????????????"
+      },
+      {
+        "atMs": 399,
+        "ply": 13,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????p??-??????-?-??-?-?---?p-----------ppp--ppprnb-kbnr"
+      },
+      {
+        "atMs": 399,
+        "ply": 13,
+        "side": "black",
+        "direction": "input",
+        "text": "35.998474292"
+      },
+      {
+        "atMs": 399,
+        "ply": 13,
+        "side": "black",
+        "direction": "output",
+        "text": "move e5e4"
+      },
+      {
+        "atMs": 400,
+        "ply": 14,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQ-K-RPP--NpPP---P-B----?-p---??????--???????-????????????????"
+      },
+      {
+        "atMs": 400,
+        "ply": 14,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????p??-??P-B?-?-??p?-?---??-----------ppp--ppprnb-kbnr"
+      },
+      {
+        "atMs": 400,
+        "ply": 14,
+        "side": "white",
+        "direction": "input",
+        "text": "36.753452709"
+      },
+      {
+        "atMs": 471,
+        "ply": 14,
+        "side": "white",
+        "direction": "output",
+        "text": "move d3e4"
+      },
+      {
+        "atMs": 471,
+        "ply": 15,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQ-K-RPP--NpPP-----B----?-P---???--?--???-???-???-???????-????"
+      },
+      {
+        "atMs": 471,
+        "ply": 15,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????p??-??????-?-????-?---??-----------ppp--ppprnb-kbnr"
+      },
+      {
+        "atMs": 471,
+        "ply": 15,
+        "side": "black",
+        "direction": "input",
+        "text": "36.998231750"
+      },
+      {
+        "atMs": 471,
+        "ply": 15,
+        "side": "black",
+        "direction": "output",
+        "text": "move f7f5"
+      },
+      {
+        "atMs": 472,
+        "ply": 16,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQ-K-RPP--NpPP-----B----?-P---???--p--???-???-???-???????-????"
+      },
+      {
+        "atMs": 472,
+        "ply": 16,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????p??-????????-??P-??---??p----------ppp---pprnb-kbnr"
+      },
+      {
+        "atMs": 472,
+        "ply": 16,
+        "side": "white",
+        "direction": "input",
+        "text": "37.682387125"
+      },
+      {
+        "atMs": 590,
+        "ply": 16,
+        "side": "white",
+        "direction": "output",
+        "text": "move d1b3"
+      },
+      {
+        "atMs": 591,
+        "ply": 17,
+        "side": "white",
+        "direction": "input",
+        "text": "RNB--K-RPP--NpPP-Q---B------P---?-?--p--?-??-??-?p???-????????n?"
+      },
+      {
+        "atMs": 591,
+        "ply": 17,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????p??-????????-??P-??---??p----------ppp---pprnb-kbnr"
+      },
+      {
+        "atMs": 591,
+        "ply": 17,
+        "side": "black",
+        "direction": "input",
+        "text": "37.998028000"
+      },
+      {
+        "atMs": 591,
+        "ply": 17,
+        "side": "black",
+        "direction": "output",
+        "text": "move f5e4"
+      },
+      {
+        "atMs": 591,
+        "ply": 18,
+        "side": "white",
+        "direction": "input",
+        "text": "RNB--K-RPP--NpPP-Q---B------p---?-?-??--?-??-??-?p???-????????n?"
+      },
+      {
+        "atMs": 591,
+        "ply": 18,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????p??-???-B?-?-??p?-?---??-----------ppp---pprnb-kbnr"
+      },
+      {
+        "atMs": 591,
+        "ply": 18,
+        "side": "white",
+        "direction": "input",
+        "text": "38.563614667"
+      },
+      {
+        "atMs": 606,
+        "ply": 18,
+        "side": "white",
+        "direction": "output",
+        "text": "move f3e4"
+      },
+      {
+        "atMs": 607,
+        "ply": 19,
+        "side": "white",
+        "direction": "input",
+        "text": "RNB--K-RPP--NpPP-Q----------B---?-?-?--??--?-?--?p???-?p??????n?"
+      },
+      {
+        "atMs": 607,
+        "ply": 19,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????p??-??????-?-????-?---??-----------ppp---pprnb-kbnr"
+      },
+      {
+        "atMs": 607,
+        "ply": 19,
+        "side": "black",
+        "direction": "input",
+        "text": "38.997805542"
+      },
+      {
+        "atMs": 607,
+        "ply": 19,
+        "side": "black",
+        "direction": "output",
+        "text": "move c8e6"
+      },
+      {
+        "atMs": 607,
+        "ply": 20,
+        "side": "white",
+        "direction": "input",
+        "text": "RNB--K-RPP--NpPP-Q----------B---?-?-?--??--?b?--?p?????p????????"
+      },
+      {
+        "atMs": 607,
+        "ply": 20,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????p??-Q?????-?--???-?----?-------b---ppp---pprn--kbnr"
+      },
+      {
+        "atMs": 607,
+        "ply": 20,
+        "side": "white",
+        "direction": "input",
+        "text": "39.548521084"
+      },
+      {
+        "atMs": 625,
+        "ply": 20,
+        "side": "white",
+        "direction": "output",
+        "text": "move b3d3"
+      },
+      {
+        "atMs": 626,
+        "ply": 21,
+        "side": "white",
+        "direction": "input",
+        "text": "RNB--K-RPP--NpPP---Q--------B---?-?-?--?-?--??--?p?-???p???-????"
+      },
+      {
+        "atMs": 626,
+        "ply": 21,
+        "side": "black",
+        "direction": "input",
+        "text": "????????P????p??--?????-?--???-?----?-------b---ppp---pprn--kbnr"
+      },
+      {
+        "atMs": 626,
+        "ply": 21,
+        "side": "black",
+        "direction": "input",
+        "text": "39.997615834"
+      },
+      {
+        "atMs": 626,
+        "ply": 21,
+        "side": "black",
+        "direction": "output",
+        "text": "move e6a2"
+      },
+      {
+        "atMs": 626,
+        "ply": 22,
+        "side": "white",
+        "direction": "input",
+        "text": "RNB--K-RbP--NpPP---Q----?---B---?-?-?--?-?--??--?p?-???p???-????"
+      },
+      {
+        "atMs": 626,
+        "ply": 22,
+        "side": "black",
+        "direction": "input",
+        "text": "?N??????b????p??--???????--?????----??----------ppp---pprn?-kbnr"
+      },
+      {
+        "atMs": 626,
+        "ply": 22,
+        "side": "white",
+        "direction": "input",
+        "text": "40.530344250"
+      },
+      {
+        "atMs": 648,
+        "ply": 22,
+        "side": "white",
+        "direction": "output",
+        "text": "move b1d2"
+      },
+      {
+        "atMs": 648,
+        "ply": 23,
+        "side": "white",
+        "direction": "input",
+        "text": "R-B?-K-RbP-NNpPP---Q----?---B---?-?-?-??-?--??-??p?-???p???-????"
+      },
+      {
+        "atMs": 648,
+        "ply": 23,
+        "side": "black",
+        "direction": "input",
+        "text": "?-??????b????p??--???????--?????----??----------ppp---pprn?-kbnr"
+      },
+      {
+        "atMs": 648,
+        "ply": 23,
+        "side": "black",
+        "direction": "input",
+        "text": "40.997334543"
+      },
+      {
+        "atMs": 648,
+        "ply": 23,
+        "side": "black",
+        "direction": "output",
+        "text": "move a2d5"
+      },
+      {
+        "atMs": 648,
+        "ply": 24,
+        "side": "white",
+        "direction": "input",
+        "text": "R-B?-K-R-P-NNpPP---Q--------B-----?b?-??-?????-?p??????p????????"
+      },
+      {
+        "atMs": 648,
+        "ply": 24,
+        "side": "black",
+        "direction": "input",
+        "text": "????????-????p??--???????--?B???---b??----------ppp---pprn?-kbnr"
+      },
+      {
+        "atMs": 648,
+        "ply": 24,
+        "side": "white",
+        "direction": "input",
+        "text": "41.508942833"
+      },
+      {
+        "atMs": 670,
+        "ply": 24,
+        "side": "white",
+        "direction": "output",
+        "text": "move e4d5"
+      },
+      {
+        "atMs": 671,
+        "ply": 25,
+        "side": "white",
+        "direction": "input",
+        "text": "R-B?-K-R-P-NNpPP---Q--------------?B?-??-?-?-?-?pp???-?p??????n?"
+      },
+      {
+        "atMs": 671,
+        "ply": 25,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????p??-????????-??????---???------?---ppp---pprn?-kbnr"
+      },
+      {
+        "atMs": 671,
+        "ply": 25,
+        "side": "black",
+        "direction": "input",
+        "text": "41.997109626"
+      },
+      {
+        "atMs": 671,
+        "ply": 25,
+        "side": "black",
+        "direction": "output",
+        "text": "move c7c5"
+      },
+      {
+        "atMs": 671,
+        "ply": 26,
+        "side": "white",
+        "direction": "input",
+        "text": "R-B?-K-R-P-NNpPP---Q--------------?B?-??-?-?-?-?pp???-?p??????n?"
+      },
+      {
+        "atMs": 671,
+        "ply": 26,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????p????????????-?????--p???------?---pp?---pprn?-kbnr"
+      },
+      {
+        "atMs": 671,
+        "ply": 26,
+        "side": "white",
+        "direction": "input",
+        "text": "42.486890875"
+      },
+      {
+        "atMs": 840,
+        "ply": 26,
+        "side": "white",
+        "direction": "output",
+        "text": "move d2c4"
+      },
+      {
+        "atMs": 840,
+        "ply": 27,
+        "side": "white",
+        "direction": "input",
+        "text": "R-B--K-R-P--NpPP---Q------N------??B---?-----?--pp???-?p??????n?"
+      },
+      {
+        "atMs": 840,
+        "ply": 27,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????p??????????????????--p???------?---pp?---pprn?-kbnr"
+      },
+      {
+        "atMs": 840,
+        "ply": 27,
+        "side": "black",
+        "direction": "input",
+        "text": "42.996929168"
+      },
+      {
+        "atMs": 840,
+        "ply": 27,
+        "side": "black",
+        "direction": "output",
+        "text": "move f8d6"
+      },
+      {
+        "atMs": 841,
+        "ply": 28,
+        "side": "white",
+        "direction": "input",
+        "text": "R-B--K-R-P--NpPP---Q------N------??B---?---b-?--pp???-?p??????n?"
+      },
+      {
+        "atMs": 841,
+        "ply": 28,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????p?P??????-??????-??--p?-?-----b?---pp----pprn?-k-nr"
+      },
+      {
+        "atMs": 841,
+        "ply": 28,
+        "side": "white",
+        "direction": "input",
+        "text": "43.318360791"
+      },
+      {
+        "atMs": 937,
+        "ply": 28,
+        "side": "white",
+        "direction": "output",
+        "text": "move d3f5"
+      },
+      {
+        "atMs": 938,
+        "ply": 29,
+        "side": "white",
+        "direction": "input",
+        "text": "R-B?-K-R-P--NpPP----------N------??B-Q-----b----pp?-?-?p??-??-n?"
+      },
+      {
+        "atMs": 938,
+        "ply": 29,
+        "side": "black",
+        "direction": "input",
+        "text": "?????????????p?P??????-??????-??--p?-?-----b?---pp----pprn?-k-nr"
+      },
+      {
+        "atMs": 938,
+        "ply": 29,
+        "side": "black",
+        "direction": "input",
+        "text": "43.996727252"
+      },
+      {
+        "atMs": 938,
+        "ply": 29,
+        "side": "black",
+        "direction": "output",
+        "text": "move d6h2"
+      }
+    ],
+    "truncated": false
+  },
+  "warnings": [],
+  "privateDiagnostics": {}
+}

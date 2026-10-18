@@ -1,0 +1,823 @@
+{
+  "id": "16957e04-8534-4dce-8705-02a50ffd498e",
+  "white": "external-misty-tier1",
+  "black": "external-misty-v1",
+  "result": "1-0",
+  "reason": "Bot exited",
+  "timeControl": {
+    "baseSeconds": 30.0,
+    "incrementSeconds": 1.0
+  },
+  "frames": [
+    {
+      "ply": 0,
+      "board": "RNBQKBNRPPPPPPPP--------------------------------pppppppprnbqkbnr",
+      "white": "RNBQKBNRPPPPPPPP----------------????????????????????????????????",
+      "black": "????????????????????????????????----------------pppppppprnbqkbnr",
+      "move": null,
+      "clocks": [
+        30.0,
+        30.0
+      ]
+    },
+    {
+      "ply": 1,
+      "board": "RNBQKBNRPPPP-PPP----P---------------------------pppppppprnbqkbnr",
+      "white": "RNBQKBNRPPPP-PPP----P-----------?-?????--???????????????????????",
+      "black": "????????????????????????????????----------------pppppppprnbqkbnr",
+      "move": "e2e3",
+      "clocks": [
+        30.999179,
+        30.0
+      ]
+    },
+    {
+      "ply": 2,
+      "board": "RNBQKBNRPPPP-PPP----P--------------p------------ppp-pppprnbqkbnr",
+      "white": "RNBQKBNRPPPP-PPP----P-----------?-?????--???????????????????????",
+      "black": "???????????????????????-???-??-?---p------------ppp-pppprnbqkbnr",
+      "move": "d7d5",
+      "clocks": [
+        30.999179,
+        30.952802
+      ]
+    },
+    {
+      "ply": 3,
+      "board": "RNBQK-NRPPPPBPPP----P--------------p------------ppp-pppprnbqkbnr",
+      "white": "RNBQK-NRPPPPBPPP----P-----------?-?????--???????????????????????",
+      "black": "???????????????????????-???-??-?---p------------ppp-pppprnbqkbnr",
+      "move": "f1e2",
+      "clocks": [
+        31.993356,
+        30.952802
+      ]
+    },
+    {
+      "ply": 4,
+      "board": "RNBQK-NRPPPPBPPP----P-----------p--p-------------pp-pppprnbqkbnr",
+      "white": "RNBQK-NRPPPPBPPP----P-----------?-?????--???????????????????????",
+      "black": "???????????????????????--??-??-?p--p-------------pp-pppprnbqkbnr",
+      "move": "a7a5",
+      "clocks": [
+        31.993356,
+        31.893431
+      ]
+    },
+    {
+      "ply": 5,
+      "board": "RNBQK-NRPPP-BPPP---PP-----------p--p-------------pp-pppprnbqkbnr",
+      "white": "RNBQK-NRPPP-BPPP---PP-----------???????-????????????????????????",
+      "black": "???????????????????????--??-??-?p--p-------------pp-pppprnbqkbnr",
+      "move": "d2d3",
+      "clocks": [
+        32.938798,
+        31.893431
+      ]
+    },
+    {
+      "ply": 6,
+      "board": "RNBQK-NRPPP-BPPP---PP-----------p--p---p---------pp-ppp-rnbqkbnr",
+      "white": "RNBQK-NRPPP-BPPP---PP-----------???????p????????????????????????",
+      "black": "???????????????????????--??-??--p--p---p---------pp-ppp-rnbqkbnr",
+      "move": "h7h5",
+      "clocks": [
+        32.938798,
+        32.821942
+      ]
+    },
+    {
+      "ply": 7,
+      "board": "RNBQK-NRPPP--PPP---PPB----------p--p---p---------pp-ppp-rnbqkbnr",
+      "white": "RNBQK-NRPPP--PPP---PPB-------?--???p???p????????????????????????",
+      "black": "???????????????????????--??-??--p--p---p---------pp-ppp-rnbqkbnr",
+      "move": "e2f3",
+      "clocks": [
+        33.814104,
+        32.821942
+      ]
+    },
+    {
+      "ply": 8,
+      "board": "RNBQK-NRPPP--PPP---PPB---------pp--p-------------pp-ppp-rnbqkbnr",
+      "white": "RNBQK-NRPPP--PPP---PPB-------?-????p???-????????????????????????",
+      "black": "???????????????????????--??-??-pp--p-------------pp-ppp-rnbqkbnr",
+      "move": "h5h4",
+      "clocks": [
+        33.814104,
+        33.744396
+      ]
+    },
+    {
+      "ply": 9,
+      "board": "RNBQK--RPPP-NPPP---PPB---------pp--p-------------pp-ppp-rnbqkbnr",
+      "white": "RNBQK--RPPP-NPPP---PPB---------????p???-????????????????????????",
+      "black": "???????????????????????--??-??-pp--p-------------pp-ppp-rnbqkbnr",
+      "move": "g1e2",
+      "clocks": [
+        34.76546,
+        33.744396
+      ]
+    },
+    {
+      "ply": 10,
+      "board": "RNBQK--RPPP-NPPP---PPB---------pp--p---------n---pp-ppp-rnbqkb-r",
+      "white": "RNBQK--RPPP-NPPP---PPB---------????p???-????????????????????????",
+      "black": "???????????????????????--??--?-pp--p---------n---pp-ppp-rnbqkb-r",
+      "move": "g8f6",
+      "clocks": [
+        34.76546,
+        34.661599
+      ]
+    },
+    {
+      "ply": 11,
+      "board": "RNBQ-RK-PPP-NPPP---PPB---------pp--p---------n---pp-ppp-rnbqkb-r",
+      "white": "RNBQ-RK-PPP-NPPP---PPB---------????p???-????????????????????????",
+      "black": "???????????????????????--??--?-pp--p---------n---pp-ppp-rnbqkb-r",
+      "move": "e1g1",
+      "clocks": [
+        35.610318,
+        34.661599
+      ]
+    },
+    {
+      "ply": 12,
+      "board": "RNBQ-RK-PPP-NPPP---PPB---------pp--pp--------n---pp--pp-rnbqkb-r",
+      "white": "RNBQ-RK-PPP-NPPP---PPB---------????p???-????????????????????????",
+      "black": "????????????????-??????---?--?-pp--pp--------n---pp--pp-rnbqkb-r",
+      "move": "e7e5",
+      "clocks": [
+        35.610318,
+        35.569548
+      ]
+    },
+    {
+      "ply": 13,
+      "board": "RNBQ-RK-PPP-NPPP---P-B------P--pp--pp--------n---pp--pp-rnbqkb-r",
+      "white": "RNBQ-RK-PPP-NPPP---P-B------P--????p??--???????-????????????????",
+      "black": "????????????????-??????---?-P?-pp--pp--------n---pp--pp-rnbqkb-r",
+      "move": "e3e4",
+      "clocks": [
+        36.375994,
+        35.569548
+      ]
+    },
+    {
+      "ply": 14,
+      "board": "RNBQ-RK-PPP-NPPP---P-B------p--pp---p--------n---pp--pp-rnbqkb-r",
+      "white": "RNBQ-RK-PPP-NPPP---P-B------p--???????--???????-????????????????",
+      "black": "????????????????-??P-B?---?-p?-pp---p--------n---pp--pp-rnbqkb-r",
+      "move": "d5e4",
+      "clocks": [
+        36.375994,
+        36.401842
+      ]
+    },
+    {
+      "ply": 15,
+      "board": "RNBQ-RK-PPP-NPPP-----B------P--pp---p--------n---pp--pp-rnbqkb-r",
+      "white": "RNBQ-RK-PPP-NPPP-----B------P--????-??--???-???-???-???????q????",
+      "black": "???Q???????-????-??-???---?-P?-pp---p--------n---pp--pp-rnbqkb-r",
+      "move": "d3e4",
+      "clocks": [
+        37.364631,
+        36.401842
+      ]
+    },
+    {
+      "ply": 16,
+      "board": "RNBq-RK-PPP-NPPP-----B------P--pp---p--------n---pp--pp-rnb-kb-r",
+      "white": "RNBq-RK-PPP-NPPP---?-B------P--???????--???????-????????????????",
+      "black": "??Bq-R????P-N???-??-???---?-P?-pp---p--------n---pp--pp-rnb-kb-r",
+      "move": "d8d1",
+      "clocks": [
+        37.364631,
+        37.330695
+      ]
+    },
+    {
+      "ply": 17,
+      "board": "RNBR--K-PPP-NPPP-----B------P--pp---p--------n---pp--pp-rnb-kb-r",
+      "white": "RNBR--K-PPP-NPPP-----B------P--????-??--???-???-???-???????-????",
+      "black": "????????????????-??????---??P?-pp---p--------n---pp--pp-rnb-kb-r",
+      "move": "f1d1",
+      "clocks": [
+        38.35024,
+        37.330695
+      ]
+    }
+  ],
+  "failedSide": "black",
+  "studentReports": [
+    {
+      "code": "exited",
+      "side": "black",
+      "phase": "move",
+      "ply": 17,
+      "clockSeconds": 37.33069537603296,
+      "observation": "????????????????-??????---??P?-pp---p--------n---pp--pp-rnb-kb-r",
+      "received": null,
+      "atMs": 1826,
+      "transcript": [
+        {
+          "direction": "output",
+          "text": "move e7e5"
+        },
+        {
+          "direction": "input",
+          "text": "????????????????-??????---?--?-pp--pp--------n---pp--pp-rnbqkb-r"
+        },
+        {
+          "direction": "input",
+          "text": "????????????????-??????---?-P?-pp--pp--------n---pp--pp-rnbqkb-r"
+        },
+        {
+          "direction": "input",
+          "text": "35.569548168"
+        },
+        {
+          "direction": "output",
+          "text": "move d5e4"
+        },
+        {
+          "direction": "input",
+          "text": "????????????????-??P-B?---?-p?-pp---p--------n---pp--pp-rnbqkb-r"
+        },
+        {
+          "direction": "input",
+          "text": "???Q???????-????-??-???---?-P?-pp---p--------n---pp--pp-rnbqkb-r"
+        },
+        {
+          "direction": "input",
+          "text": "36.401842293"
+        },
+        {
+          "direction": "output",
+          "text": "move d8d1"
+        },
+        {
+          "direction": "input",
+          "text": "??Bq-R????P-N???-??-???---?-P?-pp---p--------n---pp--pp-rnb-kb-r"
+        },
+        {
+          "direction": "input",
+          "text": "????????????????-??????---??P?-pp---p--------n---pp--pp-rnb-kb-r"
+        },
+        {
+          "direction": "input",
+          "text": "37.330695376"
+        }
+      ],
+      "truncated": true
+    }
+  ],
+  "protocol": {
+    "events": [
+      {
+        "atMs": 1,
+        "ply": 0,
+        "side": "white",
+        "direction": "input",
+        "text": "fow"
+      },
+      {
+        "atMs": 1,
+        "ply": 0,
+        "side": "white",
+        "direction": "input",
+        "text": "w 30 1"
+      },
+      {
+        "atMs": 141,
+        "ply": 0,
+        "side": "white",
+        "direction": "output",
+        "text": "ready"
+      },
+      {
+        "atMs": 143,
+        "ply": 0,
+        "side": "black",
+        "direction": "input",
+        "text": "fow"
+      },
+      {
+        "atMs": 143,
+        "ply": 0,
+        "side": "black",
+        "direction": "input",
+        "text": "b 30 1"
+      },
+      {
+        "atMs": 498,
+        "ply": 0,
+        "side": "black",
+        "direction": "output",
+        "text": "ready"
+      },
+      {
+        "atMs": 499,
+        "ply": 0,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQKBNRPPPPPPPP----------------????????????????????????????????"
+      },
+      {
+        "atMs": 499,
+        "ply": 0,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????????????????????----------------pppppppprnbqkbnr"
+      },
+      {
+        "atMs": 499,
+        "ply": 0,
+        "side": "white",
+        "direction": "input",
+        "text": "30.000000000"
+      },
+      {
+        "atMs": 499,
+        "ply": 0,
+        "side": "white",
+        "direction": "output",
+        "text": "move e2e3"
+      },
+      {
+        "atMs": 500,
+        "ply": 1,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQKBNRPPPP-PPP----P-----------?-?????--???????????????????????"
+      },
+      {
+        "atMs": 500,
+        "ply": 1,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????????????????????----------------pppppppprnbqkbnr"
+      },
+      {
+        "atMs": 500,
+        "ply": 1,
+        "side": "black",
+        "direction": "input",
+        "text": "30.000000000"
+      },
+      {
+        "atMs": 547,
+        "ply": 1,
+        "side": "black",
+        "direction": "output",
+        "text": "move d7d5"
+      },
+      {
+        "atMs": 547,
+        "ply": 2,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQKBNRPPPP-PPP----P-----------?-?????--???????????????????????"
+      },
+      {
+        "atMs": 547,
+        "ply": 2,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????-???-??-?---p------------ppp-pppprnbqkbnr"
+      },
+      {
+        "atMs": 547,
+        "ply": 2,
+        "side": "white",
+        "direction": "input",
+        "text": "30.999178750"
+      },
+      {
+        "atMs": 553,
+        "ply": 2,
+        "side": "white",
+        "direction": "output",
+        "text": "move f1e2"
+      },
+      {
+        "atMs": 554,
+        "ply": 3,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK-NRPPPPBPPP----P-----------?-?????--???????????????????????"
+      },
+      {
+        "atMs": 554,
+        "ply": 3,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????-???-??-?---p------------ppp-pppprnbqkbnr"
+      },
+      {
+        "atMs": 554,
+        "ply": 3,
+        "side": "black",
+        "direction": "input",
+        "text": "30.952802334"
+      },
+      {
+        "atMs": 613,
+        "ply": 3,
+        "side": "black",
+        "direction": "output",
+        "text": "move a7a5"
+      },
+      {
+        "atMs": 613,
+        "ply": 4,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK-NRPPPPBPPP----P-----------?-?????--???????????????????????"
+      },
+      {
+        "atMs": 613,
+        "ply": 4,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????--??-??-?p--p-------------pp-pppprnbqkbnr"
+      },
+      {
+        "atMs": 613,
+        "ply": 4,
+        "side": "white",
+        "direction": "input",
+        "text": "31.993355500"
+      },
+      {
+        "atMs": 668,
+        "ply": 4,
+        "side": "white",
+        "direction": "output",
+        "text": "move d2d3"
+      },
+      {
+        "atMs": 668,
+        "ply": 5,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK-NRPPP-BPPP---PP-----------???????-????????????????????????"
+      },
+      {
+        "atMs": 668,
+        "ply": 5,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????--??-??-?p--p-------------pp-pppprnbqkbnr"
+      },
+      {
+        "atMs": 668,
+        "ply": 5,
+        "side": "black",
+        "direction": "input",
+        "text": "31.893431084"
+      },
+      {
+        "atMs": 740,
+        "ply": 5,
+        "side": "black",
+        "direction": "output",
+        "text": "move h7h5"
+      },
+      {
+        "atMs": 740,
+        "ply": 6,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK-NRPPP-BPPP---PP-----------???????p????????????????????????"
+      },
+      {
+        "atMs": 740,
+        "ply": 6,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????--??-??--p--p---p---------pp-ppp-rnbqkbnr"
+      },
+      {
+        "atMs": 740,
+        "ply": 6,
+        "side": "white",
+        "direction": "input",
+        "text": "32.938797625"
+      },
+      {
+        "atMs": 865,
+        "ply": 6,
+        "side": "white",
+        "direction": "output",
+        "text": "move e2f3"
+      },
+      {
+        "atMs": 865,
+        "ply": 7,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK-NRPPP--PPP---PPB-------?--???p???p????????????????????????"
+      },
+      {
+        "atMs": 865,
+        "ply": 7,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????--??-??--p--p---p---------pp-ppp-rnbqkbnr"
+      },
+      {
+        "atMs": 865,
+        "ply": 7,
+        "side": "black",
+        "direction": "input",
+        "text": "32.821941668"
+      },
+      {
+        "atMs": 943,
+        "ply": 7,
+        "side": "black",
+        "direction": "output",
+        "text": "move h5h4"
+      },
+      {
+        "atMs": 943,
+        "ply": 8,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK-NRPPP--PPP---PPB-------?-????p???-????????????????????????"
+      },
+      {
+        "atMs": 943,
+        "ply": 8,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????--??-??-pp--p-------------pp-ppp-rnbqkbnr"
+      },
+      {
+        "atMs": 943,
+        "ply": 8,
+        "side": "white",
+        "direction": "input",
+        "text": "33.814104416"
+      },
+      {
+        "atMs": 992,
+        "ply": 8,
+        "side": "white",
+        "direction": "output",
+        "text": "move g1e2"
+      },
+      {
+        "atMs": 992,
+        "ply": 9,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK--RPPP-NPPP---PPB---------????p???-????????????????????????"
+      },
+      {
+        "atMs": 992,
+        "ply": 9,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????--??-??-pp--p-------------pp-ppp-rnbqkbnr"
+      },
+      {
+        "atMs": 992,
+        "ply": 9,
+        "side": "black",
+        "direction": "input",
+        "text": "33.744396001"
+      },
+      {
+        "atMs": 1075,
+        "ply": 9,
+        "side": "black",
+        "direction": "output",
+        "text": "move g8f6"
+      },
+      {
+        "atMs": 1075,
+        "ply": 10,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQK--RPPP-NPPP---PPB---------????p???-????????????????????????"
+      },
+      {
+        "atMs": 1075,
+        "ply": 10,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????--??--?-pp--p---------n---pp-ppp-rnbqkb-r"
+      },
+      {
+        "atMs": 1075,
+        "ply": 10,
+        "side": "white",
+        "direction": "input",
+        "text": "34.765459749"
+      },
+      {
+        "atMs": 1230,
+        "ply": 10,
+        "side": "white",
+        "direction": "output",
+        "text": "move e1g1"
+      },
+      {
+        "atMs": 1231,
+        "ply": 11,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQ-RK-PPP-NPPP---PPB---------????p???-????????????????????????"
+      },
+      {
+        "atMs": 1231,
+        "ply": 11,
+        "side": "black",
+        "direction": "input",
+        "text": "???????????????????????--??--?-pp--p---------n---pp-ppp-rnbqkb-r"
+      },
+      {
+        "atMs": 1231,
+        "ply": 11,
+        "side": "black",
+        "direction": "input",
+        "text": "34.661599376"
+      },
+      {
+        "atMs": 1323,
+        "ply": 11,
+        "side": "black",
+        "direction": "output",
+        "text": "move e7e5"
+      },
+      {
+        "atMs": 1323,
+        "ply": 12,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQ-RK-PPP-NPPP---PPB---------????p???-????????????????????????"
+      },
+      {
+        "atMs": 1323,
+        "ply": 12,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????-??????---?--?-pp--pp--------n---pp--pp-rnbqkb-r"
+      },
+      {
+        "atMs": 1323,
+        "ply": 12,
+        "side": "white",
+        "direction": "input",
+        "text": "35.610318166"
+      },
+      {
+        "atMs": 1557,
+        "ply": 12,
+        "side": "white",
+        "direction": "output",
+        "text": "move e3e4"
+      },
+      {
+        "atMs": 1558,
+        "ply": 13,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQ-RK-PPP-NPPP---P-B------P--????p??--???????-????????????????"
+      },
+      {
+        "atMs": 1558,
+        "ply": 13,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????-??????---?-P?-pp--pp--------n---pp--pp-rnbqkb-r"
+      },
+      {
+        "atMs": 1558,
+        "ply": 13,
+        "side": "black",
+        "direction": "input",
+        "text": "35.569548168"
+      },
+      {
+        "atMs": 1725,
+        "ply": 13,
+        "side": "black",
+        "direction": "output",
+        "text": "move d5e4"
+      },
+      {
+        "atMs": 1726,
+        "ply": 14,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQ-RK-PPP-NPPP---P-B------p--???????--???????-????????????????"
+      },
+      {
+        "atMs": 1726,
+        "ply": 14,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????-??P-B?---?-p?-pp---p--------n---pp--pp-rnbqkb-r"
+      },
+      {
+        "atMs": 1726,
+        "ply": 14,
+        "side": "white",
+        "direction": "input",
+        "text": "36.375994083"
+      },
+      {
+        "atMs": 1737,
+        "ply": 14,
+        "side": "white",
+        "direction": "output",
+        "text": "move d3e4"
+      },
+      {
+        "atMs": 1737,
+        "ply": 15,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBQ-RK-PPP-NPPP-----B------P--????-??--???-???-???-???????q????"
+      },
+      {
+        "atMs": 1738,
+        "ply": 15,
+        "side": "black",
+        "direction": "input",
+        "text": "???Q???????-????-??-???---?-P?-pp---p--------n---pp--pp-rnbqkb-r"
+      },
+      {
+        "atMs": 1738,
+        "ply": 15,
+        "side": "black",
+        "direction": "input",
+        "text": "36.401842293"
+      },
+      {
+        "atMs": 1809,
+        "ply": 15,
+        "side": "black",
+        "direction": "output",
+        "text": "move d8d1"
+      },
+      {
+        "atMs": 1809,
+        "ply": 16,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBq-RK-PPP-NPPP---?-B------P--???????--???????-????????????????"
+      },
+      {
+        "atMs": 1809,
+        "ply": 16,
+        "side": "black",
+        "direction": "input",
+        "text": "??Bq-R????P-N???-??-???---?-P?-pp---p--------n---pp--pp-rnb-kb-r"
+      },
+      {
+        "atMs": 1809,
+        "ply": 16,
+        "side": "white",
+        "direction": "input",
+        "text": "37.364630583"
+      },
+      {
+        "atMs": 1824,
+        "ply": 16,
+        "side": "white",
+        "direction": "output",
+        "text": "move f1d1"
+      },
+      {
+        "atMs": 1824,
+        "ply": 17,
+        "side": "white",
+        "direction": "input",
+        "text": "RNBR--K-PPP-NPPP-----B------P--????-??--???-???-???-???????-????"
+      },
+      {
+        "atMs": 1824,
+        "ply": 17,
+        "side": "black",
+        "direction": "input",
+        "text": "????????????????-??????---??P?-pp---p--------n---pp--pp-rnb-kb-r"
+      },
+      {
+        "atMs": 1824,
+        "ply": 17,
+        "side": "black",
+        "direction": "input",
+        "text": "37.330695376"
+      }
+    ],
+    "truncated": false
+  },
+  "warnings": [],
+  "privateDiagnostics": {
+    "black": "Traceback (most recent call last):\n  File \"/Users/debojotidassoumya/Documents/Codex/2026-10-17/https-www-mit-edu-6-7980/evals/misty_adapter.py\", line 138, in <module>\n    main()\n  File \"/Users/debojotidassoumya/Documents/Codex/2026-10-17/https-www-mit-edu-6-7980/evals/misty_adapter.py\", line 113, in main\n    strategy.observe_own_move(last_move, observed)\n  File \"/Users/debojotidassoumya/Library/Python/3.11/lib/python/site-packages/fow_chess/engine_v2.py\", line 1657, in observe_own_move\n    self._record(\n  File \"/Users/debojotidassoumya/Library/Python/3.11/lib/python/site-packages/fow_chess/engine_v2.py\", line 1769, in _record\n    fn()\n  File \"/Users/debojotidassoumya/Library/Python/3.11/lib/python/site-packages/fow_chess/engine_v2.py\", line 1659, in <lambda>\n    lambda: self._engine.observe_own_move(move, observation),  # type: ignore[union-attr]\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/debojotidassoumya/Library/Python/3.11/lib/python/site-packages/fow_chess/engine_v2.py\", line 474, in observe_own_move\n    self.enumerator.update_own_move(move, observation)\n  File \"/Users/debojotidassoumya/Library/Python/3.11/lib/python/site-packages/fow_chess/p_enum/enumerator.py\", line 283, in update_own_move\n    raise RuntimeError(\nRuntimeError: P became empty after own move d8d1; no candidate position admitted it. This is a soundness violation.\n"
+  }
+}

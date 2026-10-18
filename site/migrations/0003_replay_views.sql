@@ -1,0 +1,5 @@
+ALTER TABLE moves ADD COLUMN clock_white REAL;
+ALTER TABLE moves ADD COLUMN clock_black REAL;
+ALTER TABLE moves ADD COLUMN white_view TEXT;
+ALTER TABLE moves ADD COLUMN black_view TEXT;
+ALTER TABLE moves ADD COLUMN board TEXT;

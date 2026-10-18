@@ -1,0 +1,700 @@
+{
+  "run_id": "submission-2026-10-18T03-11-03Z",
+  "created_at": "2026-10-18T03:13:45.127677+00:00",
+  "games_per_pair": 4,
+  "base_time": 30.0,
+  "increment": 1.0,
+  "max_plies": 40,
+  "leaderboard": [
+    {
+      "policy_id": "external-opowell-obscuro-search",
+      "games": 28,
+      "points": 22.5,
+      "score": 0.8035714285714286,
+      "ci95_low": 0.6241707639908471,
+      "ci95_high": 0.9097220052167305
+    },
+    {
+      "policy_id": "external-opowell-chess-agent",
+      "games": 28,
+      "points": 16.5,
+      "score": 0.5892857142857143,
+      "ci95_low": 0.4072943494487391,
+      "ci95_high": 0.7497329356123132
+    },
+    {
+      "policy_id": "local-check-seek",
+      "games": 8,
+      "points": 3.0,
+      "score": 0.375,
+      "ci95_low": 0.13684175946152105,
+      "ci95_high": 0.6942621454161981
+    },
+    {
+      "policy_id": "local-develop",
+      "games": 8,
+      "points": 3.0,
+      "score": 0.375,
+      "ci95_low": 0.13684175946152105,
+      "ci95_high": 0.6942621454161981
+    },
+    {
+      "policy_id": "local-safe",
+      "games": 8,
+      "points": 3.0,
+      "score": 0.375,
+      "ci95_low": 0.13684175946152105,
+      "ci95_high": 0.6942621454161981
+    },
+    {
+      "policy_id": "local-capture-greedy",
+      "games": 8,
+      "points": 2.0,
+      "score": 0.25,
+      "ci95_low": 0.07147768885802763,
+      "ci95_high": 0.5907301208974108
+    },
+    {
+      "policy_id": "local-pawn-storm",
+      "games": 8,
+      "points": 1.5,
+      "score": 0.1875,
+      "ci95_low": 0.04454287545508048,
+      "ci95_high": 0.5332168867392175
+    },
+    {
+      "policy_id": "external-opowell-random-legal",
+      "games": 8,
+      "points": 0.5,
+      "score": 0.0625,
+      "ci95_low": 0.0065597206029106014,
+      "ci95_high": 0.40230394646910667
+    }
+  ],
+  "matches": [
+    {
+      "game": 0,
+      "white": "external-opowell-chess-agent",
+      "black": "external-opowell-obscuro-search",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--external-opowell-obscuro-search--000.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.0,
+        "external-opowell-obscuro-search": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-obscuro-search",
+      "black": "external-opowell-chess-agent",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--external-opowell-obscuro-search--001.json",
+      "scores": {
+        "external-opowell-obscuro-search": 0.0,
+        "external-opowell-chess-agent": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-chess-agent",
+      "black": "external-opowell-obscuro-search",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-chess-agent--external-opowell-obscuro-search--002.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.5,
+        "external-opowell-obscuro-search": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-obscuro-search",
+      "black": "external-opowell-chess-agent",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--external-opowell-obscuro-search--003.json",
+      "scores": {
+        "external-opowell-obscuro-search": 1.0,
+        "external-opowell-chess-agent": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-chess-agent",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--external-opowell-random-legal--000.json",
+      "scores": {
+        "external-opowell-chess-agent": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-random-legal",
+      "black": "external-opowell-chess-agent",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--external-opowell-random-legal--001.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "external-opowell-chess-agent": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-chess-agent",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--external-opowell-random-legal--002.json",
+      "scores": {
+        "external-opowell-chess-agent": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-random-legal",
+      "black": "external-opowell-chess-agent",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-chess-agent--external-opowell-random-legal--003.json",
+      "scores": {
+        "external-opowell-random-legal": 0.5,
+        "external-opowell-chess-agent": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-chess-agent",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-capture-greedy--000.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-chess-agent",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-capture-greedy--001.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "external-opowell-chess-agent": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-chess-agent",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-capture-greedy--002.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-chess-agent",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-capture-greedy--003.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "external-opowell-chess-agent": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-chess-agent",
+      "black": "local-check-seek",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-check-seek--000.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.0,
+        "local-check-seek": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-check-seek",
+      "black": "external-opowell-chess-agent",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-check-seek--001.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "external-opowell-chess-agent": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-chess-agent",
+      "black": "local-check-seek",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-check-seek--002.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.0,
+        "local-check-seek": 1.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-check-seek",
+      "black": "external-opowell-chess-agent",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-check-seek--003.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "external-opowell-chess-agent": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-chess-agent",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-develop--000.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-develop",
+      "black": "external-opowell-chess-agent",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-develop--001.json",
+      "scores": {
+        "local-develop": 1.0,
+        "external-opowell-chess-agent": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-chess-agent",
+      "black": "local-develop",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-develop--002.json",
+      "scores": {
+        "external-opowell-chess-agent": 1.0,
+        "local-develop": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-develop",
+      "black": "external-opowell-chess-agent",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-develop--003.json",
+      "scores": {
+        "local-develop": 0.0,
+        "external-opowell-chess-agent": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-chess-agent",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-pawn-storm--000.json",
+      "scores": {
+        "external-opowell-chess-agent": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-pawn-storm",
+      "black": "external-opowell-chess-agent",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-pawn-storm--001.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "external-opowell-chess-agent": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-chess-agent",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-pawn-storm--002.json",
+      "scores": {
+        "external-opowell-chess-agent": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-pawn-storm",
+      "black": "external-opowell-chess-agent",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-chess-agent--local-pawn-storm--003.json",
+      "scores": {
+        "local-pawn-storm": 0.5,
+        "external-opowell-chess-agent": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-chess-agent",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-safe--000.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-safe",
+      "black": "external-opowell-chess-agent",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-safe--001.json",
+      "scores": {
+        "local-safe": 0.0,
+        "external-opowell-chess-agent": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-chess-agent",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-safe--002.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-safe",
+      "black": "external-opowell-chess-agent",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--local-safe--003.json",
+      "scores": {
+        "local-safe": 0.0,
+        "external-opowell-chess-agent": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-obscuro-search",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--external-opowell-random-legal--000.json",
+      "scores": {
+        "external-opowell-obscuro-search": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-random-legal",
+      "black": "external-opowell-obscuro-search",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--external-opowell-random-legal--001.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "external-opowell-obscuro-search": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-obscuro-search",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--external-opowell-random-legal--002.json",
+      "scores": {
+        "external-opowell-obscuro-search": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-random-legal",
+      "black": "external-opowell-obscuro-search",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--external-opowell-random-legal--003.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "external-opowell-obscuro-search": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-obscuro-search",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-capture-greedy--000.json",
+      "scores": {
+        "external-opowell-obscuro-search": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-obscuro-search",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-capture-greedy--001.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "external-opowell-obscuro-search": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-obscuro-search",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-capture-greedy--002.json",
+      "scores": {
+        "external-opowell-obscuro-search": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-obscuro-search",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-capture-greedy--003.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "external-opowell-obscuro-search": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-obscuro-search",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-check-seek--000.json",
+      "scores": {
+        "external-opowell-obscuro-search": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-check-seek",
+      "black": "external-opowell-obscuro-search",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-obscuro-search--local-check-seek--001.json",
+      "scores": {
+        "local-check-seek": 0.5,
+        "external-opowell-obscuro-search": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-obscuro-search",
+      "black": "local-check-seek",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-obscuro-search--local-check-seek--002.json",
+      "scores": {
+        "external-opowell-obscuro-search": 0.5,
+        "local-check-seek": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-check-seek",
+      "black": "external-opowell-obscuro-search",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-check-seek--003.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "external-opowell-obscuro-search": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-obscuro-search",
+      "black": "local-develop",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-develop--000.json",
+      "scores": {
+        "external-opowell-obscuro-search": 1.0,
+        "local-develop": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-develop",
+      "black": "external-opowell-obscuro-search",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-develop--001.json",
+      "scores": {
+        "local-develop": 1.0,
+        "external-opowell-obscuro-search": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-obscuro-search",
+      "black": "local-develop",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-develop--002.json",
+      "scores": {
+        "external-opowell-obscuro-search": 1.0,
+        "local-develop": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-develop",
+      "black": "external-opowell-obscuro-search",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-develop--003.json",
+      "scores": {
+        "local-develop": 0.0,
+        "external-opowell-obscuro-search": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-obscuro-search",
+      "black": "local-pawn-storm",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-obscuro-search--local-pawn-storm--000.json",
+      "scores": {
+        "external-opowell-obscuro-search": 0.5,
+        "local-pawn-storm": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-pawn-storm",
+      "black": "external-opowell-obscuro-search",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-obscuro-search--local-pawn-storm--001.json",
+      "scores": {
+        "local-pawn-storm": 0.5,
+        "external-opowell-obscuro-search": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-obscuro-search",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-pawn-storm--002.json",
+      "scores": {
+        "external-opowell-obscuro-search": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-pawn-storm",
+      "black": "external-opowell-obscuro-search",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-pawn-storm--003.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "external-opowell-obscuro-search": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-obscuro-search",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-safe--000.json",
+      "scores": {
+        "external-opowell-obscuro-search": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-safe",
+      "black": "external-opowell-obscuro-search",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-safe--001.json",
+      "scores": {
+        "local-safe": 0.0,
+        "external-opowell-obscuro-search": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-obscuro-search",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-safe--002.json",
+      "scores": {
+        "external-opowell-obscuro-search": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-safe",
+      "black": "external-opowell-obscuro-search",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-safe--003.json",
+      "scores": {
+        "local-safe": 0.0,
+        "external-opowell-obscuro-search": 1.0
+      }
+    }
+  ]
+}

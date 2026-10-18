@@ -1,0 +1,33 @@
+{
+  "run_id": "bootstrap-compatible-2026-10-17",
+  "created_at": "2026-10-18T01:46:07.596Z",
+  "games_per_pair": 20,
+  "max_turns": 120,
+  "engine_revision": "3d41b35eb8100aa06acd993fe5bbbf9357cd538d",
+  "leaderboard": [
+    {
+      "policy_id": "external-opowell-chess-agent",
+      "games": 40,
+      "points": 40,
+      "score": 1,
+      "ci95_low": 0.9123754607496077,
+      "ci95_high": 1
+    },
+    {
+      "policy_id": "external-opowell-random-legal",
+      "games": 40,
+      "points": 10.5,
+      "score": 0.2625,
+      "ci95_low": 0.15141445317657293,
+      "ci95_high": 0.4152072029673635
+    },
+    {
+      "policy_id": "external-opowell-obscuro-search",
+      "games": 40,
+      "points": 9.5,
+      "score": 0.2375,
+      "ci95_low": 0.13244941025968585,
+      "ci95_high": 0.3885534728467702
+    }
+  ]
+}

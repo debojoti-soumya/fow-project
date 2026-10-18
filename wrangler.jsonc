@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "fow-lab",
+  "main": "site/worker.js",
+  "compatibility_date": "2026-10-17",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "fow-lab",
+      "database_id": "38d1e03d-df42-40b9-b53d-e2d5eea373ed",
+      "migrations_dir": "site/migrations"
+    }
+  ]
+}

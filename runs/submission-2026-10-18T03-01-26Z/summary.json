@@ -1,0 +1,1500 @@
+{
+  "run_id": "submission-2026-10-18T03-01-26Z",
+  "created_at": "2026-10-18T03:01:48.787030+00:00",
+  "games_per_pair": 8,
+  "base_time": 30.0,
+  "increment": 1.0,
+  "max_plies": 60,
+  "leaderboard": [
+    {
+      "policy_id": "local-develop",
+      "games": 40,
+      "points": 32.0,
+      "score": 0.8,
+      "ci95_low": 0.6524239261814333,
+      "ci95_high": 0.8950013502683314
+    },
+    {
+      "policy_id": "local-safe",
+      "games": 40,
+      "points": 25.0,
+      "score": 0.625,
+      "ci95_low": 0.47032160054531913,
+      "ci95_high": 0.7577722646420829
+    },
+    {
+      "policy_id": "local-capture-greedy",
+      "games": 40,
+      "points": 22.5,
+      "score": 0.5625,
+      "ci95_low": 0.41007502677620444,
+      "ci95_high": 0.7039719058174966
+    },
+    {
+      "policy_id": "local-check-seek",
+      "games": 40,
+      "points": 22.5,
+      "score": 0.5625,
+      "ci95_low": 0.41007502677620444,
+      "ci95_high": 0.7039719058174966
+    },
+    {
+      "policy_id": "local-pawn-storm",
+      "games": 40,
+      "points": 15.0,
+      "score": 0.375,
+      "ci95_low": 0.2422277353579172,
+      "ci95_high": 0.529678399454681
+    },
+    {
+      "policy_id": "external-opowell-random-legal",
+      "games": 40,
+      "points": 3.0,
+      "score": 0.075,
+      "ci95_low": 0.02583555677185824,
+      "ci95_high": 0.1986453015909752
+    }
+  ],
+  "matches": [
+    {
+      "game": 0,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--000.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--001.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--002.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--003.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--004.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--005.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "external-opowell-random-legal",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--006.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-capture-greedy--007.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-random-legal",
+      "black": "local-check-seek",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-check-seek--000.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-check-seek": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-check-seek",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-check-seek--001.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-random-legal",
+      "black": "local-check-seek",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-check-seek--002.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-check-seek": 1.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-check-seek",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-check-seek--003.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "external-opowell-random-legal",
+      "black": "local-check-seek",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-check-seek--004.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-check-seek": 1.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-check-seek",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-check-seek--005.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "external-opowell-random-legal",
+      "black": "local-check-seek",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-check-seek--006.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-check-seek": 1.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-check-seek",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-check-seek--007.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-random-legal",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-develop--000.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-develop",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-develop--001.json",
+      "scores": {
+        "local-develop": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-random-legal",
+      "black": "local-develop",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-develop--002.json",
+      "scores": {
+        "external-opowell-random-legal": 1.0,
+        "local-develop": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-develop",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-develop--003.json",
+      "scores": {
+        "local-develop": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "external-opowell-random-legal",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-develop--004.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-develop",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-develop--005.json",
+      "scores": {
+        "local-develop": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "external-opowell-random-legal",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-develop--006.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-develop",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-develop--007.json",
+      "scores": {
+        "local-develop": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-random-legal",
+      "black": "local-pawn-storm",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-pawn-storm--000.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-pawn-storm": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-pawn-storm",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-pawn-storm--001.json",
+      "scores": {
+        "local-pawn-storm": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-random-legal",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-pawn-storm--002.json",
+      "scores": {
+        "external-opowell-random-legal": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-pawn-storm",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-pawn-storm--003.json",
+      "scores": {
+        "local-pawn-storm": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "external-opowell-random-legal",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-pawn-storm--004.json",
+      "scores": {
+        "external-opowell-random-legal": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-pawn-storm",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-pawn-storm--005.json",
+      "scores": {
+        "local-pawn-storm": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "external-opowell-random-legal",
+      "black": "local-pawn-storm",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-pawn-storm--006.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-pawn-storm": 1.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-pawn-storm",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-pawn-storm--007.json",
+      "scores": {
+        "local-pawn-storm": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-random-legal",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-safe--000.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-safe",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-safe--001.json",
+      "scores": {
+        "local-safe": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-random-legal",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-safe--002.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-safe",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-safe--003.json",
+      "scores": {
+        "local-safe": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "external-opowell-random-legal",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-safe--004.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-safe",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-safe--005.json",
+      "scores": {
+        "local-safe": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "external-opowell-random-legal",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-safe--006.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-safe",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-safe--007.json",
+      "scores": {
+        "local-safe": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-capture-greedy",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-check-seek--000.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-check-seek",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-check-seek--001.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-capture-greedy",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-check-seek--002.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-check-seek",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-check-seek--003.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "local-capture-greedy",
+      "black": "local-check-seek",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-check-seek--004.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "local-check-seek": 1.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-check-seek",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-check-seek--005.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "local-capture-greedy",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-check-seek--006.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-check-seek",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-check-seek--007.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-capture-greedy",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-develop--000.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-develop",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-develop--001.json",
+      "scores": {
+        "local-develop": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-capture-greedy",
+      "black": "local-develop",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-develop--002.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "local-develop": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-develop",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-develop--003.json",
+      "scores": {
+        "local-develop": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "local-capture-greedy",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-develop--004.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-develop",
+      "black": "local-capture-greedy",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "local-capture-greedy--local-develop--005.json",
+      "scores": {
+        "local-develop": 0.5,
+        "local-capture-greedy": 0.5
+      }
+    },
+    {
+      "game": 6,
+      "white": "local-capture-greedy",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-develop--006.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-develop",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-develop--007.json",
+      "scores": {
+        "local-develop": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-capture-greedy",
+      "black": "local-pawn-storm",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-pawn-storm--000.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "local-pawn-storm": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-pawn-storm",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-pawn-storm--001.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-capture-greedy",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-pawn-storm--002.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-pawn-storm",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-pawn-storm--003.json",
+      "scores": {
+        "local-pawn-storm": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "local-capture-greedy",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-pawn-storm--004.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-pawn-storm",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-pawn-storm--005.json",
+      "scores": {
+        "local-pawn-storm": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "local-capture-greedy",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-pawn-storm--006.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-pawn-storm",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-pawn-storm--007.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-capture-greedy",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-safe--000.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-safe",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-safe--001.json",
+      "scores": {
+        "local-safe": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-capture-greedy",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-safe--002.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-safe",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-safe--003.json",
+      "scores": {
+        "local-safe": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "local-capture-greedy",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-safe--004.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-safe",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-safe--005.json",
+      "scores": {
+        "local-safe": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "local-capture-greedy",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-safe--006.json",
+      "scores": {
+        "local-capture-greedy": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-safe",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-safe--007.json",
+      "scores": {
+        "local-safe": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-check-seek",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-develop--000.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-develop",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-develop--001.json",
+      "scores": {
+        "local-develop": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-check-seek",
+      "black": "local-develop",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-develop--002.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "local-develop": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-develop",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-develop--003.json",
+      "scores": {
+        "local-develop": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "local-check-seek",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-develop--004.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-develop",
+      "black": "local-check-seek",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "local-check-seek--local-develop--005.json",
+      "scores": {
+        "local-develop": 0.5,
+        "local-check-seek": 0.5
+      }
+    },
+    {
+      "game": 6,
+      "white": "local-check-seek",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-develop--006.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-develop",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-develop--007.json",
+      "scores": {
+        "local-develop": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-check-seek",
+      "black": "local-pawn-storm",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-pawn-storm--000.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "local-pawn-storm": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-pawn-storm",
+      "black": "local-check-seek",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-pawn-storm--001.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-check-seek": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-check-seek",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-pawn-storm--002.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-pawn-storm",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-pawn-storm--003.json",
+      "scores": {
+        "local-pawn-storm": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "local-check-seek",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-pawn-storm--004.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-pawn-storm",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-pawn-storm--005.json",
+      "scores": {
+        "local-pawn-storm": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "local-check-seek",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-pawn-storm--006.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-pawn-storm",
+      "black": "local-check-seek",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-pawn-storm--007.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-check-seek": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-check-seek",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-safe--000.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-safe",
+      "black": "local-check-seek",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-safe--001.json",
+      "scores": {
+        "local-safe": 0.0,
+        "local-check-seek": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-check-seek",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-safe--002.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-safe",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-safe--003.json",
+      "scores": {
+        "local-safe": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "local-check-seek",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-safe--004.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-safe",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-safe--005.json",
+      "scores": {
+        "local-safe": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "local-check-seek",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-safe--006.json",
+      "scores": {
+        "local-check-seek": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-safe",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-safe--007.json",
+      "scores": {
+        "local-safe": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-develop",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-develop--local-pawn-storm--000.json",
+      "scores": {
+        "local-develop": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-pawn-storm",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-develop--local-pawn-storm--001.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-develop",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-develop--local-pawn-storm--002.json",
+      "scores": {
+        "local-develop": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-pawn-storm",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-develop--local-pawn-storm--003.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "local-develop",
+      "black": "local-pawn-storm",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-develop--local-pawn-storm--004.json",
+      "scores": {
+        "local-develop": 0.0,
+        "local-pawn-storm": 1.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-pawn-storm",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-develop--local-pawn-storm--005.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "local-develop",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-develop--local-pawn-storm--006.json",
+      "scores": {
+        "local-develop": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-pawn-storm",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-develop--local-pawn-storm--007.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-develop",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-develop--local-safe--000.json",
+      "scores": {
+        "local-develop": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-safe",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-develop--local-safe--001.json",
+      "scores": {
+        "local-safe": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-develop",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-develop--local-safe--002.json",
+      "scores": {
+        "local-develop": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-safe",
+      "black": "local-develop",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-develop--local-safe--003.json",
+      "scores": {
+        "local-safe": 1.0,
+        "local-develop": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "local-develop",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-develop--local-safe--004.json",
+      "scores": {
+        "local-develop": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-safe",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-develop--local-safe--005.json",
+      "scores": {
+        "local-safe": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "local-develop",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-develop--local-safe--006.json",
+      "scores": {
+        "local-develop": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-safe",
+      "black": "local-develop",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-develop--local-safe--007.json",
+      "scores": {
+        "local-safe": 0.0,
+        "local-develop": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-pawn-storm",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-pawn-storm--local-safe--000.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-safe",
+      "black": "local-pawn-storm",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-pawn-storm--local-safe--001.json",
+      "scores": {
+        "local-safe": 0.0,
+        "local-pawn-storm": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-pawn-storm",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-pawn-storm--local-safe--002.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-safe",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-pawn-storm--local-safe--003.json",
+      "scores": {
+        "local-safe": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 4,
+      "white": "local-pawn-storm",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-pawn-storm--local-safe--004.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 5,
+      "white": "local-safe",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-pawn-storm--local-safe--005.json",
+      "scores": {
+        "local-safe": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 6,
+      "white": "local-pawn-storm",
+      "black": "local-safe",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-pawn-storm--local-safe--006.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-safe": 1.0
+      }
+    },
+    {
+      "game": 7,
+      "white": "local-safe",
+      "black": "local-pawn-storm",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-pawn-storm--local-safe--007.json",
+      "scores": {
+        "local-safe": 0.0,
+        "local-pawn-storm": 1.0
+      }
+    }
+  ]
+}

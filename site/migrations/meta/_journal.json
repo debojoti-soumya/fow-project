@@ -1,0 +1,10 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {"idx": 0, "version": "7", "when": 1760734200000, "tag": "0000_policy_registry", "breakpoints": true},
+    {"idx": 1, "version": "7", "when": 1760742000000, "tag": "0001_submission_policies", "breakpoints": true},
+    {"idx": 2, "version": "7", "when": 1760745000000, "tag": "0002_runs", "breakpoints": true},
+    {"idx": 3, "version": "7", "when": 1760748000000, "tag": "0003_replay_views", "breakpoints": true}
+  ]
+}

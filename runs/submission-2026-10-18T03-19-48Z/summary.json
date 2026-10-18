@@ -1,0 +1,1932 @@
+{
+  "run_id": "submission-2026-10-18T03-19-48Z",
+  "created_at": "2026-10-18T03:27:55.965904+00:00",
+  "games_per_pair": 4,
+  "base_time": 30.0,
+  "increment": 1.0,
+  "max_plies": 30,
+  "leaderboard": [
+    {
+      "policy_id": "external-misty-v1",
+      "games": 44,
+      "points": 34.0,
+      "score": 0.7727272727272727,
+      "ci95_low": 0.6300735713298432,
+      "ci95_high": 0.8715818916981491
+    },
+    {
+      "policy_id": "external-opowell-paper-design",
+      "games": 44,
+      "points": 30.5,
+      "score": 0.6931818181818182,
+      "ci95_low": 0.5460697311343026,
+      "ci95_high": 0.809269555177192
+    },
+    {
+      "policy_id": "external-misty-tier1",
+      "games": 44,
+      "points": 29.5,
+      "score": 0.6704545454545454,
+      "ci95_low": 0.5228685960640531,
+      "ci95_high": 0.7906660683284421
+    },
+    {
+      "policy_id": "local-gtcfr-leaf1",
+      "games": 44,
+      "points": 29.0,
+      "score": 0.6590909090909091,
+      "ci95_low": 0.5113886797193951,
+      "ci95_high": 0.7812436737136005
+    },
+    {
+      "policy_id": "external-opowell-chess-agent",
+      "games": 16,
+      "points": 7.5,
+      "score": 0.46875,
+      "ci95_low": 0.2551395749760227,
+      "ci95_high": 0.6944612636660223
+    },
+    {
+      "policy_id": "local-develop",
+      "games": 16,
+      "points": 5.0,
+      "score": 0.3125,
+      "ci95_low": 0.14164435051961052,
+      "ci95_high": 0.5559606813326594
+    },
+    {
+      "policy_id": "external-opowell-obscuro-search",
+      "games": 16,
+      "points": 4.0,
+      "score": 0.25,
+      "ci95_low": 0.10181901984237346,
+      "ci95_high": 0.49498768929398645
+    },
+    {
+      "policy_id": "local-check-seek",
+      "games": 16,
+      "points": 3.0,
+      "score": 0.1875,
+      "ci95_low": 0.06591478773586765,
+      "ci95_high": 0.4300935986845823
+    },
+    {
+      "policy_id": "local-capture-greedy",
+      "games": 16,
+      "points": 2.5,
+      "score": 0.15625,
+      "ci95_low": 0.049730284684081916,
+      "ci95_high": 0.39587894037841304
+    },
+    {
+      "policy_id": "local-pawn-storm",
+      "games": 16,
+      "points": 2.5,
+      "score": 0.15625,
+      "ci95_low": 0.049730284684081916,
+      "ci95_high": 0.39587894037841304
+    },
+    {
+      "policy_id": "local-safe",
+      "games": 16,
+      "points": 2.5,
+      "score": 0.15625,
+      "ci95_low": 0.049730284684081916,
+      "ci95_high": 0.39587894037841304
+    },
+    {
+      "policy_id": "external-opowell-random-legal",
+      "games": 16,
+      "points": 2.0,
+      "score": 0.125,
+      "ci95_low": 0.034976749337057134,
+      "ci95_high": 0.3602333143674828
+    }
+  ],
+  "matches": [
+    {
+      "game": 0,
+      "white": "external-misty-tier1",
+      "black": "external-misty-v1",
+      "result": "1-0",
+      "reason": "Bot exited",
+      "replay": "external-misty-tier1--external-misty-v1--000.json",
+      "scores": {
+        "external-misty-tier1": 1.0,
+        "external-misty-v1": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-misty-v1",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-misty-v1--001.json",
+      "scores": {
+        "external-misty-v1": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-tier1",
+      "black": "external-misty-v1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-misty-v1--002.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "external-misty-v1": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-misty-v1",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-misty-v1--003.json",
+      "scores": {
+        "external-misty-v1": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-tier1",
+      "black": "external-opowell-chess-agent",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-opowell-chess-agent--000.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "external-opowell-chess-agent": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-chess-agent",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-opowell-chess-agent--001.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-tier1",
+      "black": "external-opowell-chess-agent",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-opowell-chess-agent--002.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "external-opowell-chess-agent": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-chess-agent",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-opowell-chess-agent--003.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-tier1",
+      "black": "external-opowell-obscuro-search",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-opowell-obscuro-search--000.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "external-opowell-obscuro-search": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-obscuro-search",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-opowell-obscuro-search--001.json",
+      "scores": {
+        "external-opowell-obscuro-search": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-tier1",
+      "black": "external-opowell-obscuro-search",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--external-opowell-obscuro-search--002.json",
+      "scores": {
+        "external-misty-tier1": 1.0,
+        "external-opowell-obscuro-search": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-obscuro-search",
+      "black": "external-misty-tier1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--external-opowell-obscuro-search--003.json",
+      "scores": {
+        "external-opowell-obscuro-search": 0.0,
+        "external-misty-tier1": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-tier1",
+      "black": "external-opowell-paper-design",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-opowell-paper-design--000.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "external-opowell-paper-design": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-paper-design",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-opowell-paper-design--001.json",
+      "scores": {
+        "external-opowell-paper-design": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-tier1",
+      "black": "external-opowell-paper-design",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-opowell-paper-design--002.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "external-opowell-paper-design": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-paper-design",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-opowell-paper-design--003.json",
+      "scores": {
+        "external-opowell-paper-design": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-tier1",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--external-opowell-random-legal--000.json",
+      "scores": {
+        "external-misty-tier1": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-random-legal",
+      "black": "external-misty-tier1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--external-opowell-random-legal--001.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "external-misty-tier1": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-tier1",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--external-opowell-random-legal--002.json",
+      "scores": {
+        "external-misty-tier1": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-random-legal",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--external-opowell-random-legal--003.json",
+      "scores": {
+        "external-opowell-random-legal": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-tier1",
+      "black": "local-capture-greedy",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-capture-greedy--000.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "local-capture-greedy": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-capture-greedy",
+      "black": "external-misty-tier1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--local-capture-greedy--001.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "external-misty-tier1": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-tier1",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--local-capture-greedy--002.json",
+      "scores": {
+        "external-misty-tier1": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-capture-greedy",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-capture-greedy--003.json",
+      "scores": {
+        "local-capture-greedy": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-tier1",
+      "black": "local-check-seek",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-check-seek--000.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "local-check-seek": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-check-seek",
+      "black": "external-misty-tier1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--local-check-seek--001.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "external-misty-tier1": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-tier1",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--local-check-seek--002.json",
+      "scores": {
+        "external-misty-tier1": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-check-seek",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-check-seek--003.json",
+      "scores": {
+        "local-check-seek": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-tier1",
+      "black": "local-develop",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-develop--000.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "local-develop": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-develop",
+      "black": "external-misty-tier1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--local-develop--001.json",
+      "scores": {
+        "local-develop": 0.0,
+        "external-misty-tier1": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-tier1",
+      "black": "local-develop",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-develop--002.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "local-develop": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-develop",
+      "black": "external-misty-tier1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--local-develop--003.json",
+      "scores": {
+        "local-develop": 0.0,
+        "external-misty-tier1": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-tier1",
+      "black": "local-gtcfr-leaf1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-gtcfr-leaf1--000.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "local-gtcfr-leaf1": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-gtcfr-leaf1",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-gtcfr-leaf1--001.json",
+      "scores": {
+        "local-gtcfr-leaf1": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-tier1",
+      "black": "local-gtcfr-leaf1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-gtcfr-leaf1--002.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "local-gtcfr-leaf1": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-gtcfr-leaf1",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-gtcfr-leaf1--003.json",
+      "scores": {
+        "local-gtcfr-leaf1": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-tier1",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--local-pawn-storm--000.json",
+      "scores": {
+        "external-misty-tier1": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-pawn-storm",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-pawn-storm--001.json",
+      "scores": {
+        "local-pawn-storm": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-tier1",
+      "black": "local-pawn-storm",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-pawn-storm--002.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "local-pawn-storm": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-pawn-storm",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-pawn-storm--003.json",
+      "scores": {
+        "local-pawn-storm": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-tier1",
+      "black": "local-safe",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-safe--000.json",
+      "scores": {
+        "external-misty-tier1": 0.5,
+        "local-safe": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-safe",
+      "black": "external-misty-tier1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--local-safe--001.json",
+      "scores": {
+        "local-safe": 0.0,
+        "external-misty-tier1": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-tier1",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-tier1--local-safe--002.json",
+      "scores": {
+        "external-misty-tier1": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-safe",
+      "black": "external-misty-tier1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-tier1--local-safe--003.json",
+      "scores": {
+        "local-safe": 0.5,
+        "external-misty-tier1": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-v1",
+      "black": "external-opowell-chess-agent",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-v1--external-opowell-chess-agent--000.json",
+      "scores": {
+        "external-misty-v1": 0.5,
+        "external-opowell-chess-agent": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-chess-agent",
+      "black": "external-misty-v1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-v1--external-opowell-chess-agent--001.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.5,
+        "external-misty-v1": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-v1",
+      "black": "external-opowell-chess-agent",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-v1--external-opowell-chess-agent--002.json",
+      "scores": {
+        "external-misty-v1": 0.5,
+        "external-opowell-chess-agent": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-chess-agent",
+      "black": "external-misty-v1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-v1--external-opowell-chess-agent--003.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.5,
+        "external-misty-v1": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-v1",
+      "black": "external-opowell-obscuro-search",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--external-opowell-obscuro-search--000.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "external-opowell-obscuro-search": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-obscuro-search",
+      "black": "external-misty-v1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-v1--external-opowell-obscuro-search--001.json",
+      "scores": {
+        "external-opowell-obscuro-search": 0.5,
+        "external-misty-v1": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-v1",
+      "black": "external-opowell-obscuro-search",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--external-opowell-obscuro-search--002.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "external-opowell-obscuro-search": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-obscuro-search",
+      "black": "external-misty-v1",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--external-opowell-obscuro-search--003.json",
+      "scores": {
+        "external-opowell-obscuro-search": 1.0,
+        "external-misty-v1": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-v1",
+      "black": "external-opowell-paper-design",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--external-opowell-paper-design--000.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "external-opowell-paper-design": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-paper-design",
+      "black": "external-misty-v1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-v1--external-opowell-paper-design--001.json",
+      "scores": {
+        "external-opowell-paper-design": 0.5,
+        "external-misty-v1": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-v1",
+      "black": "external-opowell-paper-design",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-v1--external-opowell-paper-design--002.json",
+      "scores": {
+        "external-misty-v1": 0.5,
+        "external-opowell-paper-design": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-paper-design",
+      "black": "external-misty-v1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-v1--external-opowell-paper-design--003.json",
+      "scores": {
+        "external-opowell-paper-design": 0.5,
+        "external-misty-v1": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-v1",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--external-opowell-random-legal--000.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-random-legal",
+      "black": "external-misty-v1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-v1--external-opowell-random-legal--001.json",
+      "scores": {
+        "external-opowell-random-legal": 0.5,
+        "external-misty-v1": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-v1",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--external-opowell-random-legal--002.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-random-legal",
+      "black": "external-misty-v1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--external-opowell-random-legal--003.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "external-misty-v1": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-v1",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-capture-greedy--000.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-capture-greedy",
+      "black": "external-misty-v1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-capture-greedy--001.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "external-misty-v1": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-v1",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-capture-greedy--002.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-capture-greedy",
+      "black": "external-misty-v1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-capture-greedy--003.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "external-misty-v1": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-v1",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-check-seek--000.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-check-seek",
+      "black": "external-misty-v1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-check-seek--001.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "external-misty-v1": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-v1",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-check-seek--002.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-check-seek",
+      "black": "external-misty-v1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-check-seek--003.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "external-misty-v1": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-v1",
+      "black": "local-develop",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-v1--local-develop--000.json",
+      "scores": {
+        "external-misty-v1": 0.5,
+        "local-develop": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-develop",
+      "black": "external-misty-v1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-develop--001.json",
+      "scores": {
+        "local-develop": 0.0,
+        "external-misty-v1": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-v1",
+      "black": "local-develop",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-develop--002.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "local-develop": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-develop",
+      "black": "external-misty-v1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-v1--local-develop--003.json",
+      "scores": {
+        "local-develop": 0.5,
+        "external-misty-v1": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-v1",
+      "black": "local-gtcfr-leaf1",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-gtcfr-leaf1--000.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "local-gtcfr-leaf1": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-gtcfr-leaf1",
+      "black": "external-misty-v1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-gtcfr-leaf1--001.json",
+      "scores": {
+        "local-gtcfr-leaf1": 0.0,
+        "external-misty-v1": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-v1",
+      "black": "local-gtcfr-leaf1",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-gtcfr-leaf1--002.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "local-gtcfr-leaf1": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-gtcfr-leaf1",
+      "black": "external-misty-v1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-v1--local-gtcfr-leaf1--003.json",
+      "scores": {
+        "local-gtcfr-leaf1": 0.5,
+        "external-misty-v1": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-v1",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-pawn-storm--000.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-pawn-storm",
+      "black": "external-misty-v1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-pawn-storm--001.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "external-misty-v1": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-v1",
+      "black": "local-pawn-storm",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-misty-v1--local-pawn-storm--002.json",
+      "scores": {
+        "external-misty-v1": 0.5,
+        "local-pawn-storm": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-pawn-storm",
+      "black": "external-misty-v1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-pawn-storm--003.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "external-misty-v1": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-misty-v1",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-safe--000.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-safe",
+      "black": "external-misty-v1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-safe--001.json",
+      "scores": {
+        "local-safe": 0.0,
+        "external-misty-v1": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-misty-v1",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-safe--002.json",
+      "scores": {
+        "external-misty-v1": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-safe",
+      "black": "external-misty-v1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-misty-v1--local-safe--003.json",
+      "scores": {
+        "local-safe": 0.0,
+        "external-misty-v1": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-chess-agent",
+      "black": "external-opowell-paper-design",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-chess-agent--external-opowell-paper-design--000.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.5,
+        "external-opowell-paper-design": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-paper-design",
+      "black": "external-opowell-chess-agent",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-chess-agent--external-opowell-paper-design--001.json",
+      "scores": {
+        "external-opowell-paper-design": 1.0,
+        "external-opowell-chess-agent": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-chess-agent",
+      "black": "external-opowell-paper-design",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-chess-agent--external-opowell-paper-design--002.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.5,
+        "external-opowell-paper-design": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-paper-design",
+      "black": "external-opowell-chess-agent",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-chess-agent--external-opowell-paper-design--003.json",
+      "scores": {
+        "external-opowell-paper-design": 0.5,
+        "external-opowell-chess-agent": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-chess-agent",
+      "black": "local-gtcfr-leaf1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-chess-agent--local-gtcfr-leaf1--000.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.5,
+        "local-gtcfr-leaf1": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-gtcfr-leaf1",
+      "black": "external-opowell-chess-agent",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-chess-agent--local-gtcfr-leaf1--001.json",
+      "scores": {
+        "local-gtcfr-leaf1": 0.5,
+        "external-opowell-chess-agent": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-chess-agent",
+      "black": "local-gtcfr-leaf1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-chess-agent--local-gtcfr-leaf1--002.json",
+      "scores": {
+        "external-opowell-chess-agent": 0.5,
+        "local-gtcfr-leaf1": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-gtcfr-leaf1",
+      "black": "external-opowell-chess-agent",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-chess-agent--local-gtcfr-leaf1--003.json",
+      "scores": {
+        "local-gtcfr-leaf1": 0.5,
+        "external-opowell-chess-agent": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-obscuro-search",
+      "black": "external-opowell-paper-design",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--external-opowell-paper-design--000.json",
+      "scores": {
+        "external-opowell-obscuro-search": 0.0,
+        "external-opowell-paper-design": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-paper-design",
+      "black": "external-opowell-obscuro-search",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-obscuro-search--external-opowell-paper-design--001.json",
+      "scores": {
+        "external-opowell-paper-design": 0.5,
+        "external-opowell-obscuro-search": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-obscuro-search",
+      "black": "external-opowell-paper-design",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-obscuro-search--external-opowell-paper-design--002.json",
+      "scores": {
+        "external-opowell-obscuro-search": 0.5,
+        "external-opowell-paper-design": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-paper-design",
+      "black": "external-opowell-obscuro-search",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--external-opowell-paper-design--003.json",
+      "scores": {
+        "external-opowell-paper-design": 1.0,
+        "external-opowell-obscuro-search": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-obscuro-search",
+      "black": "local-gtcfr-leaf1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-gtcfr-leaf1--000.json",
+      "scores": {
+        "external-opowell-obscuro-search": 0.0,
+        "local-gtcfr-leaf1": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-gtcfr-leaf1",
+      "black": "external-opowell-obscuro-search",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-gtcfr-leaf1--001.json",
+      "scores": {
+        "local-gtcfr-leaf1": 1.0,
+        "external-opowell-obscuro-search": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-obscuro-search",
+      "black": "local-gtcfr-leaf1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-obscuro-search--local-gtcfr-leaf1--002.json",
+      "scores": {
+        "external-opowell-obscuro-search": 0.0,
+        "local-gtcfr-leaf1": 1.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-gtcfr-leaf1",
+      "black": "external-opowell-obscuro-search",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-obscuro-search--local-gtcfr-leaf1--003.json",
+      "scores": {
+        "local-gtcfr-leaf1": 0.5,
+        "external-opowell-obscuro-search": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-paper-design",
+      "black": "external-opowell-random-legal",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-paper-design--external-opowell-random-legal--000.json",
+      "scores": {
+        "external-opowell-paper-design": 0.5,
+        "external-opowell-random-legal": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "external-opowell-random-legal",
+      "black": "external-opowell-paper-design",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--external-opowell-random-legal--001.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "external-opowell-paper-design": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-paper-design",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--external-opowell-random-legal--002.json",
+      "scores": {
+        "external-opowell-paper-design": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "external-opowell-random-legal",
+      "black": "external-opowell-paper-design",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--external-opowell-random-legal--003.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "external-opowell-paper-design": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-paper-design",
+      "black": "local-capture-greedy",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-capture-greedy--000.json",
+      "scores": {
+        "external-opowell-paper-design": 0.0,
+        "local-capture-greedy": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-paper-design",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-capture-greedy--001.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "external-opowell-paper-design": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-paper-design",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-capture-greedy--002.json",
+      "scores": {
+        "external-opowell-paper-design": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-capture-greedy",
+      "black": "external-opowell-paper-design",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-capture-greedy--003.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "external-opowell-paper-design": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-paper-design",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-check-seek--000.json",
+      "scores": {
+        "external-opowell-paper-design": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-check-seek",
+      "black": "external-opowell-paper-design",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-check-seek--001.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "external-opowell-paper-design": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-paper-design",
+      "black": "local-check-seek",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-paper-design--local-check-seek--002.json",
+      "scores": {
+        "external-opowell-paper-design": 0.5,
+        "local-check-seek": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-check-seek",
+      "black": "external-opowell-paper-design",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-check-seek--003.json",
+      "scores": {
+        "local-check-seek": 0.0,
+        "external-opowell-paper-design": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-paper-design",
+      "black": "local-develop",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-paper-design--local-develop--000.json",
+      "scores": {
+        "external-opowell-paper-design": 0.5,
+        "local-develop": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-develop",
+      "black": "external-opowell-paper-design",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-paper-design--local-develop--001.json",
+      "scores": {
+        "local-develop": 0.5,
+        "external-opowell-paper-design": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-paper-design",
+      "black": "local-develop",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-develop--002.json",
+      "scores": {
+        "external-opowell-paper-design": 1.0,
+        "local-develop": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-develop",
+      "black": "external-opowell-paper-design",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-paper-design--local-develop--003.json",
+      "scores": {
+        "local-develop": 0.5,
+        "external-opowell-paper-design": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-paper-design",
+      "black": "local-gtcfr-leaf1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-paper-design--local-gtcfr-leaf1--000.json",
+      "scores": {
+        "external-opowell-paper-design": 0.5,
+        "local-gtcfr-leaf1": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-gtcfr-leaf1",
+      "black": "external-opowell-paper-design",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-gtcfr-leaf1--001.json",
+      "scores": {
+        "local-gtcfr-leaf1": 1.0,
+        "external-opowell-paper-design": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-paper-design",
+      "black": "local-gtcfr-leaf1",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-gtcfr-leaf1--002.json",
+      "scores": {
+        "external-opowell-paper-design": 1.0,
+        "local-gtcfr-leaf1": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-gtcfr-leaf1",
+      "black": "external-opowell-paper-design",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-gtcfr-leaf1--003.json",
+      "scores": {
+        "local-gtcfr-leaf1": 0.0,
+        "external-opowell-paper-design": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-paper-design",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-pawn-storm--000.json",
+      "scores": {
+        "external-opowell-paper-design": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-pawn-storm",
+      "black": "external-opowell-paper-design",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-pawn-storm--001.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "external-opowell-paper-design": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-paper-design",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-pawn-storm--002.json",
+      "scores": {
+        "external-opowell-paper-design": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-pawn-storm",
+      "black": "external-opowell-paper-design",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-paper-design--local-pawn-storm--003.json",
+      "scores": {
+        "local-pawn-storm": 0.5,
+        "external-opowell-paper-design": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-paper-design",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-safe--000.json",
+      "scores": {
+        "external-opowell-paper-design": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-safe",
+      "black": "external-opowell-paper-design",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-paper-design--local-safe--001.json",
+      "scores": {
+        "local-safe": 0.0,
+        "external-opowell-paper-design": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-paper-design",
+      "black": "local-safe",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-paper-design--local-safe--002.json",
+      "scores": {
+        "external-opowell-paper-design": 0.5,
+        "local-safe": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-safe",
+      "black": "external-opowell-paper-design",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-paper-design--local-safe--003.json",
+      "scores": {
+        "local-safe": 0.5,
+        "external-opowell-paper-design": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "external-opowell-random-legal",
+      "black": "local-gtcfr-leaf1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-gtcfr-leaf1--000.json",
+      "scores": {
+        "external-opowell-random-legal": 0.0,
+        "local-gtcfr-leaf1": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-gtcfr-leaf1",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-gtcfr-leaf1--001.json",
+      "scores": {
+        "local-gtcfr-leaf1": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "external-opowell-random-legal",
+      "black": "local-gtcfr-leaf1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "external-opowell-random-legal--local-gtcfr-leaf1--002.json",
+      "scores": {
+        "external-opowell-random-legal": 0.5,
+        "local-gtcfr-leaf1": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-gtcfr-leaf1",
+      "black": "external-opowell-random-legal",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "external-opowell-random-legal--local-gtcfr-leaf1--003.json",
+      "scores": {
+        "local-gtcfr-leaf1": 1.0,
+        "external-opowell-random-legal": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-capture-greedy",
+      "black": "local-gtcfr-leaf1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-gtcfr-leaf1--000.json",
+      "scores": {
+        "local-capture-greedy": 0.0,
+        "local-gtcfr-leaf1": 1.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-gtcfr-leaf1",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-gtcfr-leaf1--001.json",
+      "scores": {
+        "local-gtcfr-leaf1": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-capture-greedy",
+      "black": "local-gtcfr-leaf1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "local-capture-greedy--local-gtcfr-leaf1--002.json",
+      "scores": {
+        "local-capture-greedy": 0.5,
+        "local-gtcfr-leaf1": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-gtcfr-leaf1",
+      "black": "local-capture-greedy",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-capture-greedy--local-gtcfr-leaf1--003.json",
+      "scores": {
+        "local-gtcfr-leaf1": 1.0,
+        "local-capture-greedy": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-check-seek",
+      "black": "local-gtcfr-leaf1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "local-check-seek--local-gtcfr-leaf1--000.json",
+      "scores": {
+        "local-check-seek": 0.5,
+        "local-gtcfr-leaf1": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-gtcfr-leaf1",
+      "black": "local-check-seek",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "local-check-seek--local-gtcfr-leaf1--001.json",
+      "scores": {
+        "local-gtcfr-leaf1": 0.5,
+        "local-check-seek": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-check-seek",
+      "black": "local-gtcfr-leaf1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "local-check-seek--local-gtcfr-leaf1--002.json",
+      "scores": {
+        "local-check-seek": 0.5,
+        "local-gtcfr-leaf1": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-gtcfr-leaf1",
+      "black": "local-check-seek",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-check-seek--local-gtcfr-leaf1--003.json",
+      "scores": {
+        "local-gtcfr-leaf1": 1.0,
+        "local-check-seek": 0.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-develop",
+      "black": "local-gtcfr-leaf1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "local-develop--local-gtcfr-leaf1--000.json",
+      "scores": {
+        "local-develop": 0.5,
+        "local-gtcfr-leaf1": 0.5
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-gtcfr-leaf1",
+      "black": "local-develop",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-develop--local-gtcfr-leaf1--001.json",
+      "scores": {
+        "local-gtcfr-leaf1": 1.0,
+        "local-develop": 0.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-develop",
+      "black": "local-gtcfr-leaf1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "local-develop--local-gtcfr-leaf1--002.json",
+      "scores": {
+        "local-develop": 0.5,
+        "local-gtcfr-leaf1": 0.5
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-gtcfr-leaf1",
+      "black": "local-develop",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "local-develop--local-gtcfr-leaf1--003.json",
+      "scores": {
+        "local-gtcfr-leaf1": 0.5,
+        "local-develop": 0.5
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-gtcfr-leaf1",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-gtcfr-leaf1--local-pawn-storm--000.json",
+      "scores": {
+        "local-gtcfr-leaf1": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-pawn-storm",
+      "black": "local-gtcfr-leaf1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-gtcfr-leaf1--local-pawn-storm--001.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-gtcfr-leaf1": 1.0
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-gtcfr-leaf1",
+      "black": "local-pawn-storm",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-gtcfr-leaf1--local-pawn-storm--002.json",
+      "scores": {
+        "local-gtcfr-leaf1": 1.0,
+        "local-pawn-storm": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-pawn-storm",
+      "black": "local-gtcfr-leaf1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-gtcfr-leaf1--local-pawn-storm--003.json",
+      "scores": {
+        "local-pawn-storm": 0.0,
+        "local-gtcfr-leaf1": 1.0
+      }
+    },
+    {
+      "game": 0,
+      "white": "local-gtcfr-leaf1",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-gtcfr-leaf1--local-safe--000.json",
+      "scores": {
+        "local-gtcfr-leaf1": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 1,
+      "white": "local-safe",
+      "black": "local-gtcfr-leaf1",
+      "result": "1/2-1/2",
+      "reason": "Move limit reached",
+      "replay": "local-gtcfr-leaf1--local-safe--001.json",
+      "scores": {
+        "local-safe": 0.5,
+        "local-gtcfr-leaf1": 0.5
+      }
+    },
+    {
+      "game": 2,
+      "white": "local-gtcfr-leaf1",
+      "black": "local-safe",
+      "result": "1-0",
+      "reason": "King capturable",
+      "replay": "local-gtcfr-leaf1--local-safe--002.json",
+      "scores": {
+        "local-gtcfr-leaf1": 1.0,
+        "local-safe": 0.0
+      }
+    },
+    {
+      "game": 3,
+      "white": "local-safe",
+      "black": "local-gtcfr-leaf1",
+      "result": "0-1",
+      "reason": "King capturable",
+      "replay": "local-gtcfr-leaf1--local-safe--003.json",
+      "scores": {
+        "local-safe": 0.0,
+        "local-gtcfr-leaf1": 1.0
+      }
+    }
+  ]
+}
